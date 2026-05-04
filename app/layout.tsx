@@ -5,12 +5,12 @@ import './globals.css'
 import Header from './components/Header'
 import Footer from './components/Footer'
 
-
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'APPEXE DEVELOPMENTS LTD | Construction Excellence',
-  description: 'Professional construction and development services with precision and integrity across the United Kingdom.',
+  title: 'SANDOWN DEVELOPMENTS LTD | Construction Excellence',
+  description:
+    'Sandown Developments Ltd delivers high-quality residential and commercial construction services across the United Kingdom with precision, safety, and reliability.',
 }
 
 export default function RootLayout({
@@ -27,6 +27,7 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
+
       <body className={inter.className}>
         <Header />
         <main>{children}</main>

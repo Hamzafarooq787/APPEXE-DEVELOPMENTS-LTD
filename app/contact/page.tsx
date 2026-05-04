@@ -1,5 +1,6 @@
 // src/app/contact/page.tsx
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function ContactPage() {
   return (
@@ -14,7 +15,7 @@ export default function ContactPage() {
             Get in touch with our <span className="text-primary-container">development experts</span>.
           </h1>
           <p className="text-[16px] md:text-[18px] leading-[24px] md:leading-[28px] text-on-surface-variant max-w-2xl">
-            We're ready to discuss your next construction project or commercial partnership. Reach out to our Stoke-on-Trent office directly via email or visit us at our headquarters.
+            SANDOWN DEVELOPMENTS LTD is ready to discuss your next construction project or commercial partnership. Reach out to our Stoke-on-Trent office directly via email or visit us at our headquarters.
           </p>
         </div>
       </section>
@@ -34,10 +35,10 @@ export default function ContactPage() {
                 For all sales inquiries, project proposals, and corporate partnerships.
               </p>
               <a
-                href="mailto:sales@appexedevelopments.co.uk"
+                href="mailto:sales@"
                 className="text-lg md:text-[24px] leading-[26px] md:leading-[32px] font-semibold text-primary-container hover:underline underline-offset-4 break-all"
               >
-                sales@appexedevelopments.co.uk
+                sales@
               </a>
             </div>
           </div>
@@ -50,8 +51,8 @@ export default function ContactPage() {
             <div>
               <h3 className="text-xl md:text-[24px] leading-[28px] md:leading-[32px] font-semibold mb-1 md:mb-2">Our Office</h3>
               <p className="text-sm md:text-[16px] leading-[20px] md:leading-[24px] text-on-surface-variant mb-3 md:mb-4">
-                FLAT 1, 118 GREENGATES STREET,<br />
-                STOKE-ON-TRENT, ST6 6DE
+                11 SAINT ANDREWS DRIVE,<br />
+                STOKE-ON-TRENT, ST5 2NW
               </p>
               <span className="text-[12px] md:text-[14px] leading-[16px] md:leading-[20px] tracking-[0.05em] font-semibold text-secondary uppercase flex items-center gap-2">
                 Headquarters <span className="material-symbols-outlined text-sm">verified</span>
@@ -67,7 +68,7 @@ export default function ContactPage() {
             </p>
             <div className="mt-2">
               <a
-                href="mailto:sales@appexedevelopments.co.uk"
+                href="mailto:sales@"
                 className="inline-block bg-white text-primary px-5 md:px-6 py-2 md:py-3 text-[13px] md:text-[14px] leading-[18px] md:leading-[20px] tracking-[0.05em] font-semibold uppercase hover:bg-surface-container-highest transition-colors rounded-md text-center"
               >
                 Send Email
@@ -91,7 +92,7 @@ export default function ContactPage() {
           {/* Floating pin */}
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex flex-col items-center pointer-events-none">
             <div className="bg-white px-3 py-2 md:px-4 md:py-3 shadow-lg border border-outline-variant rounded-md text-center whitespace-nowrap">
-              <p className="text-xs md:text-sm font-semibold text-on-surface">ST6 6DE</p>
+              <p className="text-xs md:text-sm font-semibold text-on-surface">ST5 2NW</p>
             </div>
             <div className="w-6 h-6 md:w-8 md:h-8 bg-primary-container rounded-full border-4 border-white shadow-lg animate-pulse mt-1"></div>
           </div>
@@ -135,6 +136,21 @@ export default function ContactPage() {
             <div className="w-10 h-10 md:w-12 md:h-12 rounded-full bg-slate-200 flex items-center justify-center text-slate-500 font-bold text-base md:text-lg mb-3">4</div>
             <h5 className="text-sm md:text-[14px] leading-[18px] md:leading-[20px] tracking-[0.05em] font-semibold mb-2 uppercase">Engagement</h5>
             <p className="text-xs md:text-sm text-on-surface-variant">Contract finalization and project kickoff with site team.</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Small Contact / Address Section (consistent with home & about) */}
+      <section className="py-8 md:py-12 border-t border-outline-variant">
+        <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-center md:text-left">
+          <div>
+            <h3 className="text-lg md:text-xl font-bold text-on-surface">SANDOWN DEVELOPMENTS LTD</h3>
+            <p className="text-sm md:text-base text-on-surface-variant">11 SAINT ANDREWS DRIVE, STOKE-ON-TRENT, ST5 2NW</p>
+          </div>
+          <div>
+            <a href="mailto:sales@" className="text-primary-container hover:underline text-sm md:text-base">
+              sales@
+            </a>
           </div>
         </div>
       </section>

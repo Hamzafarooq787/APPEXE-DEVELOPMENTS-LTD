@@ -23,7 +23,7 @@ export default function Home() {
               Building the Future with <span className="text-primary-container">Structural Integrity</span> and Modern Innovation.
             </h1>
             <p className="text-base md:text-[18px] leading-relaxed md:leading-[28px] text-white/90 mb-6 md:mb-10">
-              APPEXE DEVELOPMENTS LTD delivers large-scale commercial and premium residential projects with systematic precision and transparent management.
+              SANDOWN DEVELOPMENTS LTD delivers large-scale commercial and premium residential projects with systematic precision and transparent management.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
               <Link href="/services">
@@ -41,7 +41,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* NEW SECTION 1: Featured Projects / Recent Developments */}
+      {/* Featured Projects / Recent Developments */}
       <section className="py-12 md:py-[80px] max-w-[1200px] mx-auto px-4 sm:px-6 md:px-8">
         <div className="text-center mb-10 md:mb-16">
           <span className="text-[14px] leading-[20px] tracking-[0.05em] font-semibold text-primary uppercase">Our Work</span>
@@ -97,7 +97,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* NEW SECTION 2: Our Process (How we work) */}
+      {/* Our Process (How we work) */}
       <section className="bg-surface-container py-12 md:py-[80px]">
         <div className="max-w-[1200px] mx-auto px-4 sm:px-6 md:px-8">
           <div className="text-center mb-10 md:mb-16">
@@ -140,7 +140,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Our Expertise Section (kept as original) */}
+      {/* Our Expertise */}
       <section className="py-12 md:py-[80px] max-w-[1200px] mx-auto px-4 sm:px-6 md:px-8">
         <div className="mb-8 md:mb-12 border-l-4 border-primary-container pl-4 md:pl-6">
           <span className="text-[14px] leading-[20px] tracking-[0.05em] font-semibold text-primary uppercase block mb-2">Capabilities</span>
@@ -225,14 +225,14 @@ export default function Home() {
         </div>
       </section>
 
-      {/* FAQ Section (New) */}
+      {/* FAQ Section */}
       <section className="bg-surface-container py-12 md:py-[80px]">
         <div className="max-w-[1200px] mx-auto px-4 sm:px-6 md:px-8">
           <div className="text-center mb-10 md:mb-16">
             <span className="text-[14px] leading-[20px] tracking-[0.05em] font-semibold text-secondary uppercase">Common Questions</span>
             <h2 className="text-2xl md:text-[32px] leading-8 md:leading-[40px] tracking-[-0.01em] font-bold text-on-surface mt-2 mb-4">Frequently Asked Questions</h2>
             <p className="text-base md:text-[18px] leading-relaxed md:leading-[28px] text-on-surface-variant max-w-2xl mx-auto">
-              Everything you need to know about working with APPEXE DEVELOPMENTS.
+              Everything you need to know about working with SANDOWN DEVELOPMENTS LTD.
             </p>
           </div>
           <div className="max-w-3xl mx-auto space-y-4 md:space-y-6">
@@ -280,7 +280,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Small Contact Section (before existing CTA? Actually requirement: end mai lgana + contact wala koi chota sa section. I'll add this before the big CTA, or replace? Better to keep both: small contact section + the existing CTA. But the requirement says "FAQs end mai lgana or contact wala koi chota sa section bna do". I'll put small contact section after FAQs, before the original CTA. Or remove original CTA? I'll keep original but add small contact section after FAQs. */}
+      {/* Contact Section */}
       <section className="max-w-[1200px] mx-auto px-4 sm:px-6 md:px-8 py-12 md:py-[60px]">
         <div className="bg-surface-container-high rounded-2xl p-6 md:p-10 flex flex-col md:flex-row justify-between items-center gap-6">
           <div>
@@ -293,36 +293,16 @@ export default function Home() {
                 Enquire Now
               </button>
             </Link>
-            <a href="tel:+441782123456">
+            <a href="mailto:sales@">
               <button className="border border-primary-container text-primary-container px-6 py-2 md:px-8 md:py-3 rounded-lg text-[14px] leading-[20px] tracking-[0.05em] font-semibold hover:bg-primary-container hover:text-white transition-all">
-                Call Our Office
+                Email: sales@
               </button>
             </a>
           </div>
         </div>
       </section>
 
-      {/* Existing CTA Section (optional - keeping as is) */}
-      <section className="max-w-[1200px] mx-auto px-4 sm:px-6 md:px-8 py-12 md:py-[80px]">
-        <div className="bg-slate-900 rounded-xl p-6 md:p-12 text-center relative overflow-hidden">
-          <div className="absolute top-0 right-0 w-48 md:w-64 h-48 md:h-64 bg-primary-container/10 rounded-full blur-3xl -mr-16 md:-mr-32 -mt-16 md:-mt-32"></div>
-          <div className="absolute bottom-0 left-0 w-48 md:w-64 h-48 md:h-64 bg-secondary-container/10 rounded-full blur-3xl -ml-16 md:-ml-32 -mb-16 md:-mb-32"></div>
-          <h2 className="text-2xl md:text-[32px] leading-8 md:leading-[40px] tracking-[-0.01em] font-bold text-white mb-4 md:mb-6 relative z-10">Ready to break ground on your next project?</h2>
-          <p className="text-base md:text-[18px] leading-relaxed md:leading-[28px] text-slate-300 mb-6 md:mb-10 max-w-xl mx-auto relative z-10">Connect with our corporate team today for a comprehensive consultation and project assessment.</p>
-          <div className="flex flex-col sm:flex-row justify-center gap-4 relative z-10">
-            <Link href="/contact">
-              <button className="bg-secondary-container text-white text-[14px] leading-[20px] tracking-[0.05em] font-semibold px-8 md:px-12 py-3 md:py-4 rounded-lg uppercase shadow-lg hover:brightness-110 transition-all">
-                Enquire Now
-              </button>
-            </Link>
-            <a href="tel:+441782123456">
-              <button className="bg-transparent border border-white text-white text-[14px] leading-[20px] tracking-[0.05em] font-semibold px-8 md:px-12 py-3 md:py-4 rounded-lg uppercase hover:bg-white hover:text-slate-900 transition-all">
-                Call Our Office
-              </button>
-            </a>
-          </div>
-        </div>
-      </section>
+     
     </>
   )
 }
