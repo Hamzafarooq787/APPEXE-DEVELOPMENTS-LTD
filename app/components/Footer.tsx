@@ -51,6 +51,18 @@ export default function Footer() {
             </a>
           </div>
 
+          <div className="mt-4 text-xs leading-relaxed text-slate-500">
+            Designed &amp; Developed By{' '}
+            <a
+              href="https://linkedo.co.uk/"
+              target="_blank"
+              rel="nofollow noopener noreferrer"
+              className="text-slate-700 hover:text-slate-900 underline underline-offset-2"
+            >
+              Linkedo
+            </a>
+          </div>
+
         </div>
       </div>
     </footer>
