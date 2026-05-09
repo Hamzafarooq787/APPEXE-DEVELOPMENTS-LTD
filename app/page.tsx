@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative h-[870px] flex items-center overflow-hidden">
+      <section className="relative min-h-[520px] sm:min-h-[640px] md:h-[870px] py-16 md:py-0 flex items-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
             src="https://lh3.googleusercontent.com/aida-public/AB6AXuARl_oWvHTM2Rw0A9JN-ia2GEsNIsf-kQzIQ-vlGIrErDmHdm2tk0i7TIfI9aiRse6rimn5ugufakhJKYFRrcY37KW7OtQZhN5YBueL6eIpPs0P1VRDHkbsK-4NfkKoMgMZuLJ_l6zzeruji2H_oyuUXsOxo0DBAeMszArxiYZQ3KYhT1rg0WER4g6xKU4Ab_g8fcpsZr2o6VIzlY9jkEwaZravgCdyO0t9cAz09Ss2QrvuOzSq3Fm936McF1WrVi5CCImQTukvgqg"

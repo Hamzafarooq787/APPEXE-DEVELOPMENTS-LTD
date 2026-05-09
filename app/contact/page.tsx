@@ -1,6 +1,4 @@
 // src/app/contact/page.tsx
-import Image from 'next/image'
-import Link from 'next/link'
 
 export default function ContactPage() {
   return (
@@ -78,26 +76,19 @@ export default function ContactPage() {
         </div>
 
         {/* Right Column - Map */}
-        <div className="lg:col-span-7 relative overflow-hidden rounded-lg border border-outline-variant group" style={{ minHeight: '320px', height: 'auto' }}>
+        <div className="lg:col-span-7 relative overflow-hidden rounded-lg border border-outline-variant" style={{ minHeight: '320px' }}>
           <div className="relative w-full pt-[56.25%] md:pt-[75%] lg:pt-[66%]">
-            <Image
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuAhGptb-YdmXrMxAYrj8PZje_j7FIL9JKhFeRfOyF7K5W4zqIKTb3OozKU-QrxymGi457-vBTSAJQBnVhaXg29jo2I2u6zI5Cc0c7Har0mTf7zQH4Xf3fpIryAQm1uutpZpm2hWWVJ79OF8mT0QlIEWdtyfQvo9tz5bBEA7QiUcIpptiLaGNnIfU030_eP0qpec2pJnUf3Zg7wgt1cqISG_q8BTqtfKnNkkFg4XBC8388sWaSXZjjqpHVYGDxtpf5vnpuYWt69Ur8Q"
-              alt="Map of Stoke-on-Trent"
-              fill
-              className="object-cover grayscale opacity-50 transition-transform duration-700 group-hover:scale-105"
-              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 800px"
-              unoptimized
+            <iframe
+              src="https://www.google.com/maps?q=11+Saint+Andrews+Drive,+Stoke-on-Trent,+ST5+2NW,+UK&output=embed"
+              title="Map of 11 Saint Andrews Drive, Stoke-on-Trent, ST5 2NW"
+              className="absolute inset-0 w-full h-full border-0"
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              allowFullScreen
             />
           </div>
-          {/* Floating pin */}
-          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex flex-col items-center pointer-events-none">
-            <div className="bg-white px-3 py-2 md:px-4 md:py-3 shadow-lg border border-outline-variant rounded-md text-center whitespace-nowrap">
-              <p className="text-xs md:text-sm font-semibold text-on-surface">ST5 2NW</p>
-            </div>
-            <div className="w-6 h-6 md:w-8 md:h-8 bg-primary-container rounded-full border-4 border-white shadow-lg animate-pulse mt-1"></div>
-          </div>
           {/* Legend */}
-          <div className="absolute bottom-3 left-3 md:bottom-6 md:left-6 bg-white/90 backdrop-blur-sm px-3 py-2 md:px-4 md:py-3 border border-outline-variant rounded-md">
+          <div className="absolute bottom-3 left-3 md:bottom-6 md:left-6 bg-white/90 backdrop-blur-sm px-3 py-2 md:px-4 md:py-3 border border-outline-variant rounded-md pointer-events-none">
             <p className="text-[10px] md:text-xs font-semibold text-on-surface uppercase">Regional Hub</p>
             <p className="text-[10px] md:text-sm text-on-surface-variant">North Staffordshire / West Midlands</p>
           </div>
