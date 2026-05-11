@@ -191,8 +191,8 @@ export default function ServicesPage() {
             <p className="text-sm md:text-base text-on-surface-variant">11 SAINT ANDREWS DRIVE, STOKE-ON-TRENT, ST5 2NW</p>
           </div>
           <div>
-            <a href="mailto:sales@" className="text-primary-container hover:underline text-sm md:text-base">
-              sales@
+            <a href="mailto:info@sandowndevelopments.co.uk" className="text-primary-container hover:underline text-sm md:text-base">
+              info@sandowndevelopments.co.uk
             </a>
           </div>
         </div>
