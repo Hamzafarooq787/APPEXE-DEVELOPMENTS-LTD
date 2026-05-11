@@ -293,9 +293,9 @@ export default function Home() {
                 Enquire Now
               </button>
             </Link>
-            <a href="mailto:sales@">
+            <a href="mailto:info@sandowndevelopments.co.uk">
               <button className="border border-primary-container text-primary-container px-6 py-2 md:px-8 md:py-3 rounded-lg text-[14px] leading-[20px] tracking-[0.05em] font-semibold hover:bg-primary-container hover:text-white transition-all">
-                Email: sales@
+                Email: info@sandowndevelopments.co.uk
               </button>
             </a>
           </div>

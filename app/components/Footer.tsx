@@ -36,9 +36,9 @@ export default function Footer() {
 
           <div className="flex items-center gap-2 text-slate-500 hover:text-slate-900 transition-all">
             <span className="material-symbols-outlined text-sm">mail</span>
-            <span className="text-xs uppercase tracking-tight">
-              sales@
-            </span>
+            <a href="mailto:info@sandowndevelopments.co.uk" className="text-xs tracking-tight">
+              info@sandowndevelopments.co.uk
+            </a>
           </div>
 
           {/* OPTIONAL LINKS */}

@@ -33,10 +33,10 @@ export default function ContactPage() {
                 For all sales inquiries, project proposals, and corporate partnerships.
               </p>
               <a
-                href="mailto:sales@"
+                href="mailto:info@sandowndevelopments.co.uk"
                 className="text-lg md:text-[24px] leading-[26px] md:leading-[32px] font-semibold text-primary-container hover:underline underline-offset-4 break-all"
               >
-                sales@
+                info@sandowndevelopments.co.uk
               </a>
             </div>
           </div>
@@ -66,7 +66,7 @@ export default function ContactPage() {
             </p>
             <div className="mt-2">
               <a
-                href="mailto:sales@"
+                href="mailto:info@sandowndevelopments.co.uk"
                 className="inline-block bg-white text-primary px-5 md:px-6 py-2 md:py-3 text-[13px] md:text-[14px] leading-[18px] md:leading-[20px] tracking-[0.05em] font-semibold uppercase hover:bg-surface-container-highest transition-colors rounded-md text-center"
               >
                 Send Email
@@ -139,8 +139,8 @@ export default function ContactPage() {
             <p className="text-sm md:text-base text-on-surface-variant">11 SAINT ANDREWS DRIVE, STOKE-ON-TRENT, ST5 2NW</p>
           </div>
           <div>
-            <a href="mailto:sales@" className="text-primary-container hover:underline text-sm md:text-base">
-              sales@
+            <a href="mailto:info@sandowndevelopments.co.uk" className="text-primary-container hover:underline text-sm md:text-base">
+              info@sandowndevelopments.co.uk
             </a>
           </div>
         </div>
