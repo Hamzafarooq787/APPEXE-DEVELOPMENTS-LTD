@@ -76,7 +76,7 @@ export default function ContactPage() {
         </div>
 
         {/* Right Column - Map */}
-        <div className="lg:col-span-7 relative overflow-hidden rounded-lg border border-outline-variant" style={{ minHeight: '320px' }}>
+        <div className="lg:col-span-7 relative overflow-hidden rounded-lg border border-outline-variant min-h-80">
           <div className="relative w-full pt-[56.25%] md:pt-[75%] lg:pt-[66%]">
             <iframe
               src="https://www.google.com/maps?q=11+Saint+Andrews+Drive,+Stoke-on-Trent,+ST5+2NW,+UK&output=embed"

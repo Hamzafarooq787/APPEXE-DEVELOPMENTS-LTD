@@ -68,3 +68,8 @@ body {
   color: var(--color-on-surface);
   font-family: 'Inter', system-ui, sans-serif;
 }
+
+/* Material Symbols filled variant — font-variation-settings cannot be expressed as a Tailwind class */
+.icon-filled {
+  font-variation-settings: 'FILL' 1;
+}
