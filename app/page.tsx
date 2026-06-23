@@ -156,9 +156,9 @@ export default function Home() {
               <p className="text-sm md:text-[16px] leading-relaxed md:leading-[24px] text-text-muted mb-4">
                 Scalable solutions for corporate headquarters, industrial complexes, and retail centers that define the modern skyline.
               </p>
-              <div className="flex items-center text-accent text-[14px] leading-[20px] tracking-[0.05em] font-semibold cursor-pointer hover:gap-2 transition-all">
-                LEARN MORE <span className="material-symbols-outlined ml-1">arrow_forward</span>
-              </div>
+              <Link href="/services" className="flex items-center gap-1 text-accent text-[14px] leading-[20px] tracking-[0.05em] font-semibold hover:gap-2 transition-all">
+                VIEW OUR SERVICES <span className="material-symbols-outlined ml-1">arrow_forward</span>
+              </Link>
             </div>
           </div>
 
@@ -207,9 +207,11 @@ export default function Home() {
             <div className="md:w-1/2 p-4 md:p-6 flex flex-col justify-center">
               <h3 className="text-xl md:text-[24px] leading-7 md:leading-[32px] font-semibold text-text mb-2">Project Management</h3>
               <p className="text-sm md:text-[16px] leading-relaxed md:leading-[24px] text-text-muted mb-4 md:mb-6">End-to-end oversight ensuring every milestone is achieved with clinical precision and cost-efficiency.</p>
-              <button className="border border-accent text-accent px-4 md:px-6 py-2 text-[14px] leading-[20px] tracking-[0.05em] font-semibold w-fit hover:bg-accent hover:text-white transition-all rounded-lg">
-                VIEW CASE STUDIES
-              </button>
+              <Link href="/services">
+                <button className="border border-accent text-accent px-4 md:px-6 py-2 text-[14px] leading-[20px] tracking-[0.05em] font-semibold w-fit hover:bg-accent hover:text-white transition-all rounded-lg">
+                  VIEW CASE STUDIES
+                </button>
+              </Link>
             </div>
           </div>
         </div>

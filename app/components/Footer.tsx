@@ -39,9 +39,11 @@ export default function Footer() {
           </div>
 
           <div className="mt-4 flex gap-4">
+            {/* ACTION NEEDED: Replace with your company's external profile URL (e.g. LinkedIn, Companies House listing, or trade directory) */}
             <a href="#" className="text-text-muted hover:text-text transition-colors">
               <span className="material-symbols-outlined">public</span>
             </a>
+            {/* ACTION NEEDED: Replace with the URL to your downloadable company brochure or capability statement PDF */}
             <a href="#" className="text-text-muted hover:text-text transition-colors">
               <span className="material-symbols-outlined">description</span>
             </a>
