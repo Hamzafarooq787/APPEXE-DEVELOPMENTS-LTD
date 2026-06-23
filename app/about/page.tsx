@@ -4,7 +4,6 @@ import Link from 'next/link'
 export default function AboutPage() {
   return (
     <main className="max-w-[1200px] mx-auto px-4 sm:px-6 md:px-8">
-      {/* Hero / Who We Are Section */}
       <section className="py-12 md:py-[80px] grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
         <div>
           <div className="flex items-center gap-2 mb-4">
@@ -45,7 +44,6 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Mission & Values (Bento-style Modular Layout) */}
       <section className="py-12 md:py-[80px]">
         <div className="text-center mb-10 md:mb-16">
           <h2 className="text-2xl md:text-[32px] leading-8 md:leading-[40px] tracking-[-0.01em] font-bold text-on-surface uppercase mb-3 md:mb-4">
@@ -56,7 +54,6 @@ export default function AboutPage() {
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {/* Mission Card */}
           <div className="md:col-span-2 bg-white border border-outline-variant p-5 md:p-6 flex flex-col justify-between rounded-sm">
             <div>
               <span className="material-symbols-outlined text-primary-container text-3xl md:text-4xl mb-4">architecture</span>
@@ -72,7 +69,6 @@ export default function AboutPage() {
             </div>
           </div>
 
-          {/* Safety Card */}
           <div className="bg-white border border-outline-variant p-5 md:p-6 rounded-sm">
             <span className="material-symbols-outlined text-secondary-container text-3xl md:text-4xl mb-4">health_and_safety</span>
             <h3 className="text-xl md:text-[24px] leading-7 md:leading-[32px] font-semibold mb-3 md:mb-4 uppercase">Safety First</h3>
@@ -81,7 +77,6 @@ export default function AboutPage() {
             </p>
           </div>
 
-          {/* Quality Card */}
           <div className="bg-white border border-outline-variant p-5 md:p-6 rounded-sm">
             <span className="material-symbols-outlined text-primary-container text-3xl md:text-4xl mb-4">verified</span>
             <h3 className="text-xl md:text-[24px] leading-7 md:leading-[32px] font-semibold mb-3 md:mb-4 uppercase">Quality Control</h3>
@@ -90,7 +85,6 @@ export default function AboutPage() {
             </p>
           </div>
 
-          {/* Innovation Card */}
           <div className="md:col-span-2 bg-secondary-container text-white p-5 md:p-6 flex flex-col md:flex-row items-center gap-6 md:gap-8 rounded-sm">
             <div className="flex-1 text-center md:text-left">
               <h3 className="text-xl md:text-[24px] leading-7 md:leading-[32px] font-semibold mb-2 uppercase">Modern Methodology</h3>
@@ -103,7 +97,6 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Our History / Trust Section */}
       <section className="py-12 md:py-[80px] bg-surface-container-lowest -mx-4 sm:-mx-6 md:-mx-8 px-4 sm:px-6 md:px-8">
         <div className="max-w-[1200px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-8 md:gap-12 items-start">
           <div className="lg:col-span-4">
@@ -179,7 +172,6 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Our Team Section */}
       <section className="py-12 md:py-[80px]">
         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end mb-8 md:mb-12 gap-4">
           <div>
@@ -197,7 +189,6 @@ export default function AboutPage() {
           </div>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 md:gap-8">
-          {/* Team Member 1 */}
           <div className="text-center group">
             <div className="aspect-square bg-surface-container mb-3 md:mb-4 overflow-hidden grayscale group-hover:grayscale-0 transition-all duration-500 rounded-sm">
               <Image
@@ -217,7 +208,6 @@ export default function AboutPage() {
             </p>
           </div>
 
-          {/* Team Member 2 */}
           <div className="text-center group">
             <div className="aspect-square bg-surface-container mb-3 md:mb-4 overflow-hidden grayscale group-hover:grayscale-0 transition-all duration-500 rounded-sm">
               <Image
@@ -237,7 +227,6 @@ export default function AboutPage() {
             </p>
           </div>
 
-          {/* Team Member 3 */}
           <div className="text-center group">
             <div className="aspect-square bg-surface-container mb-3 md:mb-4 overflow-hidden grayscale group-hover:grayscale-0 transition-all duration-500 rounded-sm">
               <Image
@@ -257,7 +246,6 @@ export default function AboutPage() {
             </p>
           </div>
 
-          {/* Team Member 4 */}
           <div className="text-center group">
             <div className="aspect-square bg-surface-container mb-3 md:mb-4 overflow-hidden grayscale group-hover:grayscale-0 transition-all duration-500 rounded-sm">
               <Image
@@ -278,8 +266,6 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
-
-     
     </main>
   )
 }

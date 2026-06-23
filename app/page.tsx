@@ -4,7 +4,6 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <>
-      {/* Hero Section */}
       <section className="relative min-h-[520px] sm:min-h-[640px] md:h-[870px] py-16 md:py-0 flex items-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
@@ -41,7 +40,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Featured Projects / Recent Developments */}
       <section className="py-12 md:py-[80px] max-w-[1200px] mx-auto px-4 sm:px-6 md:px-8">
         <div className="text-center mb-10 md:mb-16">
           <span className="kicker text-primary">Our Work</span>
@@ -51,7 +49,6 @@ export default function Home() {
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
-          {/* Project 1 */}
           <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition-all">
             <div className="aspect-video relative">
               <Image
@@ -69,7 +66,6 @@ export default function Home() {
               </div>
             </div>
           </div>
-          {/* Project 2 */}
           <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition-all">
             <div className="aspect-video relative">
               <Image
@@ -97,7 +93,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Our Process (How we work) */}
       <section className="bg-surface-container py-12 md:py-[80px]">
         <div className="max-w-[1200px] mx-auto px-4 sm:px-6 md:px-8">
           <div className="text-center mb-10 md:mb-16">
@@ -140,14 +135,12 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Our Expertise */}
       <section className="py-12 md:py-[80px] max-w-[1200px] mx-auto px-4 sm:px-6 md:px-8">
         <div className="mb-8 md:mb-12 border-l-4 border-primary-container pl-4 md:pl-6">
           <span className="kicker text-primary block mb-2">Capabilities</span>
           <h2 className="text-2xl md:text-[32px] leading-8 md:leading-[40px] tracking-[-0.01em] font-bold text-on-surface">Our Expertise</h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
-          {/* Large Featured Card */}
           <div className="md:col-span-8 group relative bg-white border border-outline-variant overflow-hidden rounded-lg">
             <div className="h-[280px] md:h-[400px] overflow-hidden relative">
               <Image
@@ -169,7 +162,6 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Secondary Card 1 */}
           <div className="md:col-span-4 group bg-white border border-outline-variant flex flex-col rounded-lg overflow-hidden">
             <div className="h-[200px] md:h-[240px] overflow-hidden relative">
               <Image
@@ -186,7 +178,6 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Secondary Card 2 */}
           <div className="md:col-span-4 group bg-white border border-outline-variant flex flex-col rounded-lg overflow-hidden">
             <div className="h-[200px] md:h-[240px] overflow-hidden relative">
               <Image
@@ -203,7 +194,6 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Secondary Card 3 – horizontal */}
           <div className="md:col-span-8 group bg-white border border-outline-variant flex flex-col md:flex-row rounded-lg overflow-hidden">
             <div className="md:w-1/2 h-[240px] md:h-auto overflow-hidden relative">
               <Image
@@ -225,7 +215,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* FAQ Section */}
       <section className="bg-surface-container py-12 md:py-[80px]">
         <div className="max-w-[1200px] mx-auto px-4 sm:px-6 md:px-8">
           <div className="text-center mb-10 md:mb-16">
@@ -276,7 +265,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Contact Section */}
       <section className="max-w-[1200px] mx-auto px-4 sm:px-6 md:px-8 py-12 md:py-[60px]">
         <div className="bg-surface-container-high rounded-2xl p-6 md:p-10 flex flex-col md:flex-row justify-between items-center gap-6">
           <div>
@@ -297,8 +285,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-     
     </>
   )
 }
