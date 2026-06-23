@@ -13,12 +13,9 @@ export default function Footer() {
               className="h-14 w-auto object-contain"
             />
           </div>
-          <p className="text-xs leading-relaxed text-text-muted mb-6">
+          <p className="text-xs leading-relaxed text-text-muted">
             Specialist construction and development company delivering high-quality residential and commercial projects across the United Kingdom with precision, safety, and reliability.
           </p>
-          <div className="text-xs leading-relaxed text-text-muted">
-            © {new Date().getFullYear()} SANDOWN DEVELOPMENTS LTD. All rights reserved.
-          </div>
         </div>
 
         <nav aria-label="Footer navigation">
@@ -51,19 +48,25 @@ export default function Footer() {
               info@sandowndevelopments.co.uk
             </a>
           </div>
-          <div className="mt-4 text-xs leading-relaxed text-text-muted">
-            Designed &amp; Developed By{' '}
+        </div>
+
+      </div>
+
+      <div className="border-t border-border mt-10">
+        <div className="max-w-[1200px] mx-auto px-6 md:px-8 py-4 flex flex-col sm:flex-row justify-between items-center gap-2 text-[11px] text-text-muted">
+          <span>© {new Date().getFullYear()} SANDOWN DEVELOPMENTS LTD. All rights reserved.</span>
+          <span>
+            Designed &amp; Developed by{' '}
             <a
               href="https://linkedo.co.uk/"
               target="_blank"
               rel="nofollow noopener noreferrer"
-              className="text-text hover:text-primary underline underline-offset-2"
+              className="hover:text-primary underline underline-offset-2 transition-colors"
             >
               Linkedo
             </a>
-          </div>
+          </span>
         </div>
-
       </div>
     </footer>
   )
