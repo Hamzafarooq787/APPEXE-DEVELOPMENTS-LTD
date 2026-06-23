@@ -1,14 +1,14 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary:      #006d37; /* dark green — nav active, text links, brand */
-  --color-accent:       #2ecc71; /* bright green — CTA buttons, icons, highlights */
-  --color-secondary:    #865300; /* amber — kicker labels, secondary buttons */
-  --color-text:         #1c1b1b; /* main body text */
-  --color-text-muted:   #3d4a3e; /* subdued body text, captions */
-  --color-background:   #fcf9f8; /* page background */
-  --color-surface:      #f0eded; /* section and card backgrounds */
-  --color-border:       #bbcbbb; /* borders and dividers */
+  --color-primary:      #006d37;
+  --color-accent:       #2ecc71;
+  --color-secondary:    #865300;
+  --color-text:         #1c1b1b;
+  --color-text-muted:   #3d4a3e;
+  --color-background:   #fcf9f8;
+  --color-surface:      #f0eded;
+  --color-border:       #bbcbbb;
 
   --radius-DEFAULT: 0.125rem;
   --radius-lg:      0.25rem;

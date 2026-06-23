@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import FadeInSection from './components/FadeInSection'
 
 export default function Home() {
   return (
@@ -8,7 +9,7 @@ export default function Home() {
         <div className="absolute inset-0 z-0">
           <Image
             src="https://lh3.googleusercontent.com/aida-public/AB6AXuARl_oWvHTM2Rw0A9JN-ia2GEsNIsf-kQzIQ-vlGIrErDmHdm2tk0i7TIfI9aiRse6rimn5ugufakhJKYFRrcY37KW7OtQZhN5YBueL6eIpPs0P1VRDHkbsK-4NfkKoMgMZuLJ_l6zzeruji2H_oyuUXsOxo0DBAeMszArxiYZQ3KYhT1rg0WER4g6xKU4Ab_g8fcpsZr2o6VIzlY9jkEwaZravgCdyO0t9cAz09Ss2QrvuOzSq3Fm936McF1WrVi5CCImQTukvgqg"
-            alt="Modern construction site with steel beams"
+            alt="Steel frame structure under construction on a Sandown Developments site"
             fill
             className="object-cover"
             priority
@@ -40,6 +41,7 @@ export default function Home() {
         </div>
       </section>
 
+      <FadeInSection>
       <section className="py-12 md:py-[80px] max-w-[1200px] mx-auto px-4 sm:px-6 md:px-8">
         <div className="text-center mb-10 md:mb-16">
           <span className="kicker text-primary">Our Work</span>
@@ -53,7 +55,7 @@ export default function Home() {
             <div className="aspect-video relative">
               <Image
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuCKlkaJ8KWoWPTVAWphI7WFYJXFSNDLTb_XaNNyCt35C52tqFuuyvpTQqGhO9HcnlHP8ht79QnaYQr_rM6G0RcrqMlYw9DDcCJtgXck6tj0MWX0x_TfiFiV44DjUE8TFqzswkj0TloN8IYfbnOaxsqpiulOvZQ_PgYjwFtMzgL5QrO54S2shwHz4IAtzWPVoWx7IGtZUnfQ57JyFiIE2Z-U5VgzFiUgdapzRBJz0o4yMu6dlpS7m7R7PIrXnRlhwQUYij7NJIUhwNI"
-                alt="Commercial skyscraper"
+                alt="Midland Commercial Tower, Birmingham — completed 2024"
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-500"
                 unoptimized
@@ -70,7 +72,7 @@ export default function Home() {
             <div className="aspect-video relative">
               <Image
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuD_evmhEWMKExXSxS3SMM5qbdDYtLlElXwt_cUqVVEp7p3-6ZBvB-7wWPOZL9rBeuQZDVT4bwAb-Lj4zmH9xV6G6dYR7A-dIyoU40afaS3J8GmilgNonnwLjF7nZ__8IHG_OqQOHK5iGA_9JU8-y2BKm7juuRs97Ez5-sw0cc41jCyf5BaDJHW90EtC42gAnZac_2rKGC3pI6my-QHKvje3twsc7u8jxBcFjDS8IuxYXgkNziHVZXZZKHraD4QulsCYluJA-CzdzYk"
-                alt="Luxury residential"
+                alt="Lakeside Manor Residences, Cheshire — completed 2023"
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-500"
                 unoptimized
@@ -92,11 +94,12 @@ export default function Home() {
           </Link>
         </div>
       </section>
+      </FadeInSection>
 
       <section className="bg-surface py-12 md:py-[80px]">
         <div className="max-w-[1200px] mx-auto px-4 sm:px-6 md:px-8">
           <div className="text-center mb-10 md:mb-16">
-            <span className="kicker text-secondary">Seamless Experience</span>
+            <span className="kicker text-secondary">How We Work</span>
             <h2 className="text-2xl md:text-[32px] leading-8 md:leading-[40px] tracking-[-0.01em] font-bold text-text mt-2 mb-4">How We Work</h2>
             <p className="text-base md:text-[18px] leading-relaxed md:leading-[28px] text-text-muted max-w-2xl mx-auto">
               From initial consultation to final handover, our systematic approach ensures clarity and excellence.
@@ -135,6 +138,7 @@ export default function Home() {
         </div>
       </section>
 
+      <FadeInSection delay={100}>
       <section className="py-12 md:py-[80px] max-w-[1200px] mx-auto px-4 sm:px-6 md:px-8">
         <div className="mb-8 md:mb-12 border-l-4 border-accent pl-4 md:pl-6">
           <span className="kicker text-primary block mb-2">Capabilities</span>
@@ -145,7 +149,7 @@ export default function Home() {
             <div className="h-[280px] md:h-[400px] overflow-hidden relative">
               <Image
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuCKlkaJ8KWoWPTVAWphI7WFYJXFSNDLTb_XaNNyCt35C52tqFuuyvpTQqGhO9HcnlHP8ht79QnaYQr_rM6G0RcrqMlYw9DDcCJtgXck6tj0MWX0x_TfiFiV44DjUE8TFqzswkj0TloN8IYfbnOaxsqpiulOvZQ_PgYjwFtMzgL5QrO54S2shwHz4IAtzWPVoWx7IGtZUnfQ57JyFiIE2Z-U5VgzFiUgdapzRBJz0o4yMu6dlpS7m7R7PIrXnRlhwQUYij7NJIUhwNI"
-                alt="Commercial Infrastructure"
+                alt="Multi-storey commercial development, showing glazed facade and steel structure"
                 fill
                 className="object-cover transition-transform duration-500 group-hover:scale-105"
                 unoptimized
@@ -154,7 +158,7 @@ export default function Home() {
             <div className="p-4 md:p-6">
               <h3 className="text-xl md:text-[24px] leading-7 md:leading-[32px] font-semibold text-text mb-2">Commercial Infrastructure</h3>
               <p className="text-sm md:text-[16px] leading-relaxed md:leading-[24px] text-text-muted mb-4">
-                Scalable solutions for corporate headquarters, industrial complexes, and retail centers that define the modern skyline.
+                Purpose-built construction for corporate headquarters, industrial complexes, and retail centres — delivered on programme and to specification.
               </p>
               <Link href="/services" className="flex items-center gap-1 text-accent text-[14px] leading-[20px] tracking-[0.05em] font-semibold hover:gap-2 transition-all">
                 VIEW OUR SERVICES <span className="material-symbols-outlined ml-1">arrow_forward</span>
@@ -166,7 +170,7 @@ export default function Home() {
             <div className="h-[200px] md:h-[240px] overflow-hidden relative">
               <Image
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuD_evmhEWMKExXSxS3SMM5qbdDYtLlElXwt_cUqVVEp7p3-6ZBvB-7wWPOZL9rBeuQZDVT4bwAb-Lj4zmH9xV6G6dYR7A-dIyoU40afaS3J8GmilgNonnwLjF7nZ__8IHG_OqQOHK5iGA_9JU8-y2BKm7juuRs97Ez5-sw0cc41jCyf5BaDJHW90EtC42gAnZac_2rKGC3pI6my-QHKvje3twsc7u8jxBcFjDS8IuxYXgkNziHVZXZZKHraD4QulsCYluJA-CzdzYk"
-                alt="Luxury Residential"
+                alt="Lakeside Manor Residences showing high-specification interior finishes"
                 fill
                 className="object-cover transition-transform duration-500 group-hover:scale-105"
                 unoptimized
@@ -182,7 +186,7 @@ export default function Home() {
             <div className="h-[200px] md:h-[240px] overflow-hidden relative">
               <Image
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuBm71xLOvwoaFwrMw29EVYUEogisso1TkIUTkkhZQk16-yp41yE3-kP7z1o5fMI5Ft47LyBphqw1FhHcokwetdRdRKcXP_aynYaCDcY3Z-kHoIz82loqkd0ZEuKwUl_7FNjs0cph2206bd9yefJwu_946bpHUrlZsK46kirsG3RO1KFJY8_iKcSQUT0TElA4JrwiiTrH2_Kqct3DYnSU6EEmYlkI38WHio8roTJ-EBPiD0qgMMpDW4BrVyH1jHZG0AbKjIXv8C_YWk"
-                alt="Strategic Renovation"
+                alt="Period building undergoing full internal renovation and structural reconfiguration"
                 fill
                 className="object-cover transition-transform duration-500 group-hover:scale-105"
                 unoptimized
@@ -198,7 +202,7 @@ export default function Home() {
             <div className="md:w-1/2 h-[240px] md:h-auto overflow-hidden relative">
               <Image
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuC0XFJnNSB6ZwiyxV9_vSSqJVifygbdPIPElDPJ-e7uEETeBIRHFKgaN68JK0tKfTvGzsw5oHXm4G7lckB08t0GLk8-qIVlYnlvoaQq-QM4FicC6E9hCPE-N7weZTncgr4VlLiQVzkniazvDaU4n4SpegIaOSXH0ZgffDh5fR41YjF6dx_zKag8aGiTZzT9AsWcByABa8rNPti9kqOjsb08MYOLRV7eXOuLgWiX9igyTk1vlCmrhB4ScF4WMzxG9NmB8OG1ubTpEGc"
-                alt="Project Management"
+                alt="Site manager reviewing construction plans during active build phase"
                 fill
                 className="object-cover transition-transform duration-500 group-hover:scale-105"
                 unoptimized
@@ -216,7 +220,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+      </FadeInSection>
 
+      <FadeInSection delay={150}>
       <section className="bg-surface py-12 md:py-[80px]">
         <div className="max-w-[1200px] mx-auto px-4 sm:px-6 md:px-8">
           <div className="text-center mb-10 md:mb-16">
@@ -266,6 +272,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      </FadeInSection>
 
       <section className="max-w-[1200px] mx-auto px-4 sm:px-6 md:px-8 py-12 md:py-[60px]">
         <div className="bg-surface rounded-2xl p-6 md:p-10 flex flex-col md:flex-row justify-between items-center gap-6">
