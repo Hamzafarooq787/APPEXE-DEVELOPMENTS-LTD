@@ -7,7 +7,7 @@ export default function ServicesPage() {
       {/* Hero Header */}
       <header className="py-12 md:py-[80px]">
         <div className="max-w-3xl">
-          <p className="text-[12px] sm:text-[14px] leading-[16px] sm:leading-[20px] tracking-[0.05em] font-semibold text-secondary uppercase mb-3 md:mb-4">
+          <p className="kicker text-secondary mb-3 md:mb-4">
             Precision Engineering & Construction
           </p>
           <h1 className="text-3xl sm:text-4xl md:text-[48px] leading-tight md:leading-[56px] tracking-[-0.02em] font-bold text-on-surface mb-4 md:mb-6">
@@ -156,11 +156,9 @@ export default function ServicesPage() {
 
       {/* Craftsmanship CTA Section */}
       <section className="my-12 md:my-[80px] py-12 md:py-20 bg-primary-container text-on-primary-container rounded-2xl md:rounded-3xl overflow-hidden relative">
-        <div className="absolute inset-0 opacity-10 pointer-events-none">
-          <svg fill="none" height="100%" width="100%" xmlns="http://www.w3.org/2000/svg">
-            <path d="M0 100 L100 0 M200 300 L300 200 M400 500 L500 400" stroke="currentColor" strokeWidth="20"></path>
-          </svg>
-        </div>
+        <svg className="absolute inset-0 opacity-10 pointer-events-none" fill="none" height="100%" width="100%" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 100 L100 0 M200 300 L300 200 M400 500 L500 400" stroke="currentColor" strokeWidth="20" />
+        </svg>
         <div className="relative z-10 text-center max-w-2xl mx-auto px-6 md:px-8">
           <h2 className="text-2xl md:text-[32px] leading-8 md:leading-[40px] tracking-[-0.01em] font-bold mb-3 md:mb-4">
             Attention to Detail is Our Foundation.

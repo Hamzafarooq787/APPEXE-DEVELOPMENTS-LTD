@@ -6,7 +6,7 @@ export default function ContactPage() {
       {/* Hero Section */}
       <section className="mt-12 md:mt-20 mb-12 md:mb-[80px]">
         <div className="flex flex-col gap-3 md:gap-4">
-          <span className="text-[12px] md:text-[14px] leading-[16px] md:leading-[20px] tracking-[0.05em] font-semibold text-secondary uppercase">
+          <span className="kicker text-secondary">
             Connect With Us
           </span>
           <h1 className="text-[32px] md:text-[48px] leading-[40px] md:leading-[56px] tracking-[-0.02em] font-bold text-on-surface">
@@ -52,7 +52,7 @@ export default function ContactPage() {
                 11 SAINT ANDREWS DRIVE,<br />
                 STOKE-ON-TRENT, ST5 2NW
               </p>
-              <span className="text-[12px] md:text-[14px] leading-[16px] md:leading-[20px] tracking-[0.05em] font-semibold text-secondary uppercase flex items-center gap-2">
+              <span className="kicker text-secondary flex items-center gap-2">
                 Headquarters <span className="material-symbols-outlined text-sm">verified</span>
               </span>
             </div>
@@ -64,14 +64,12 @@ export default function ContactPage() {
             <p className="text-sm md:text-[16px] leading-[20px] md:leading-[24px] opacity-90">
               Our team typically responds to all serious project inquiries within 24-48 business hours.
             </p>
-            <div className="mt-2">
-              <a
-                href="mailto:info@sandowndevelopments.co.uk"
-                className="inline-block bg-white text-primary px-5 md:px-6 py-2 md:py-3 text-[13px] md:text-[14px] leading-[18px] md:leading-[20px] tracking-[0.05em] font-semibold uppercase hover:bg-surface-container-highest transition-colors rounded-md text-center"
-              >
-                Send Email
-              </a>
-            </div>
+            <a
+              href="mailto:info@sandowndevelopments.co.uk"
+              className="mt-2 inline-block bg-white text-primary px-5 md:px-6 py-2 md:py-3 text-[13px] md:text-[14px] leading-[18px] md:leading-[20px] tracking-[0.05em] font-semibold uppercase hover:bg-surface-container-highest transition-colors rounded-md text-center"
+            >
+              Send Email
+            </a>
           </div>
         </div>
 

@@ -9,7 +9,7 @@ export default function AboutPage() {
         <div>
           <div className="flex items-center gap-2 mb-4">
             <span className="w-12 h-1 bg-primary-container"></span>
-            <span className="text-[12px] sm:text-[14px] leading-[16px] sm:leading-[20px] tracking-[0.05em] font-semibold text-primary uppercase">
+            <span className="kicker text-primary">
               ESTABLISHED EXCELLENCE
             </span>
           </div>
@@ -149,7 +149,7 @@ export default function AboutPage() {
                 unoptimized
               />
               <div className="p-4 md:p-6">
-                <h4 className="text-[12px] md:text-[14px] leading-[16px] md:leading-[20px] tracking-[0.05em] font-semibold text-primary uppercase mb-2">
+                <h4 className="kicker text-primary mb-2">
                   The Beginning
                 </h4>
                 <p className="text-xs md:text-[12px] leading-[14px] md:leading-[16px] font-medium text-on-surface-variant">
@@ -167,7 +167,7 @@ export default function AboutPage() {
                 unoptimized
               />
               <div className="p-4 md:p-6">
-                <h4 className="text-[12px] md:text-[14px] leading-[16px] md:leading-[20px] tracking-[0.05em] font-semibold text-secondary uppercase mb-2">
+                <h4 className="kicker text-secondary mb-2">
                   Expansion
                 </h4>
                 <p className="text-xs md:text-[12px] leading-[14px] md:leading-[16px] font-medium text-on-surface-variant">
