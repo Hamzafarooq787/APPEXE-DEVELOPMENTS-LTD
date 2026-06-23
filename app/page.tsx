@@ -14,19 +14,19 @@ export default function Home() {
             priority
             unoptimized
           />
-          <div className="absolute inset-0 bg-slate-900/40"></div>
+          <div className="absolute inset-0 bg-text/40"></div>
         </div>
         <div className="relative z-10 max-w-[1200px] mx-auto px-4 sm:px-6 md:px-8 w-full">
           <div className="max-w-2xl">
             <h1 className="text-3xl sm:text-4xl md:text-[48px] leading-tight md:leading-[56px] tracking-[-0.02em] font-bold text-white mb-4 md:mb-6">
-              Building the Future with <span className="text-primary-container">Structural Integrity</span> and Modern Innovation.
+              Building the Future with <span className="text-accent">Structural Integrity</span> and Modern Innovation.
             </h1>
             <p className="text-base md:text-[18px] leading-relaxed md:leading-[28px] text-white/90 mb-6 md:mb-10">
               SANDOWN DEVELOPMENTS LTD delivers large-scale commercial and premium residential projects with systematic precision and transparent management.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
               <Link href="/services">
-                <button className="bg-secondary-container text-white text-[14px] leading-[20px] tracking-[0.05em] font-semibold px-6 sm:px-10 py-3 sm:py-4 rounded-lg shadow-lg hover:brightness-110 transition-all uppercase w-full sm:w-auto">
+                <button className="bg-secondary text-white text-[14px] leading-[20px] tracking-[0.05em] font-semibold px-6 sm:px-10 py-3 sm:py-4 rounded-lg shadow-lg hover:brightness-110 transition-all uppercase w-full sm:w-auto">
                   Our Services
                 </button>
               </Link>
@@ -43,8 +43,8 @@ export default function Home() {
       <section className="py-12 md:py-[80px] max-w-[1200px] mx-auto px-4 sm:px-6 md:px-8">
         <div className="text-center mb-10 md:mb-16">
           <span className="kicker text-primary">Our Work</span>
-          <h2 className="text-2xl md:text-[32px] leading-8 md:leading-[40px] tracking-[-0.01em] font-bold text-on-surface mt-2 mb-4">Featured Developments</h2>
-          <p className="text-base md:text-[18px] leading-relaxed md:leading-[28px] text-on-surface-variant max-w-2xl mx-auto">
+          <h2 className="text-2xl md:text-[32px] leading-8 md:leading-[40px] tracking-[-0.01em] font-bold text-text mt-2 mb-4">Featured Developments</h2>
+          <p className="text-base md:text-[18px] leading-relaxed md:leading-[28px] text-text-muted max-w-2xl mx-auto">
             Showcasing our commitment to quality and innovation across the UK.
           </p>
         </div>
@@ -86,62 +86,62 @@ export default function Home() {
         </div>
         <div className="text-center mt-8 md:mt-12">
           <Link href="/services">
-            <button className="border border-primary-container text-primary-container px-6 md:px-8 py-2 md:py-3 rounded-lg text-[14px] leading-[20px] tracking-[0.05em] font-semibold hover:bg-primary-container hover:text-white transition-all">
+            <button className="border border-accent text-accent px-6 md:px-8 py-2 md:py-3 rounded-lg text-[14px] leading-[20px] tracking-[0.05em] font-semibold hover:bg-accent hover:text-white transition-all">
               View All Projects
             </button>
           </Link>
         </div>
       </section>
 
-      <section className="bg-surface-container py-12 md:py-[80px]">
+      <section className="bg-surface py-12 md:py-[80px]">
         <div className="max-w-[1200px] mx-auto px-4 sm:px-6 md:px-8">
           <div className="text-center mb-10 md:mb-16">
             <span className="kicker text-secondary">Seamless Experience</span>
-            <h2 className="text-2xl md:text-[32px] leading-8 md:leading-[40px] tracking-[-0.01em] font-bold text-on-surface mt-2 mb-4">How We Work</h2>
-            <p className="text-base md:text-[18px] leading-relaxed md:leading-[28px] text-on-surface-variant max-w-2xl mx-auto">
+            <h2 className="text-2xl md:text-[32px] leading-8 md:leading-[40px] tracking-[-0.01em] font-bold text-text mt-2 mb-4">How We Work</h2>
+            <p className="text-base md:text-[18px] leading-relaxed md:leading-[28px] text-text-muted max-w-2xl mx-auto">
               From initial consultation to final handover, our systematic approach ensures clarity and excellence.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6 md:gap-8">
             <div className="text-center">
-              <div className="w-16 h-16 bg-primary-container/10 rounded-full flex items-center justify-center mx-auto mb-4 text-primary-container">
+              <div className="w-16 h-16 bg-accent/10 rounded-full flex items-center justify-center mx-auto mb-4 text-accent">
                 <span className="material-symbols-outlined text-3xl">chat</span>
               </div>
               <h3 className="text-lg md:text-xl font-bold mb-2">1. Consultation</h3>
-              <p className="text-sm md:text-base text-on-surface-variant">We listen to your vision and assess feasibility.</p>
+              <p className="text-sm md:text-base text-text-muted">We listen to your vision and assess feasibility.</p>
             </div>
             <div className="text-center">
-              <div className="w-16 h-16 bg-primary-container/10 rounded-full flex items-center justify-center mx-auto mb-4 text-primary-container">
+              <div className="w-16 h-16 bg-accent/10 rounded-full flex items-center justify-center mx-auto mb-4 text-accent">
                 <span className="material-symbols-outlined text-3xl">draw</span>
               </div>
               <h3 className="text-lg md:text-xl font-bold mb-2">2. Design & Planning</h3>
-              <p className="text-sm md:text-base text-on-surface-variant">Detailed blueprints and regulatory approvals.</p>
+              <p className="text-sm md:text-base text-text-muted">Detailed blueprints and regulatory approvals.</p>
             </div>
             <div className="text-center">
-              <div className="w-16 h-16 bg-primary-container/10 rounded-full flex items-center justify-center mx-auto mb-4 text-primary-container">
+              <div className="w-16 h-16 bg-accent/10 rounded-full flex items-center justify-center mx-auto mb-4 text-accent">
                 <span className="material-symbols-outlined text-3xl">construction</span>
               </div>
               <h3 className="text-lg md:text-xl font-bold mb-2">3. Construction</h3>
-              <p className="text-sm md:text-base text-on-surface-variant">Quality builds with transparent updates.</p>
+              <p className="text-sm md:text-base text-text-muted">Quality builds with transparent updates.</p>
             </div>
             <div className="text-center">
-              <div className="w-16 h-16 bg-primary-container/10 rounded-full flex items-center justify-center mx-auto mb-4 text-primary-container">
+              <div className="w-16 h-16 bg-accent/10 rounded-full flex items-center justify-center mx-auto mb-4 text-accent">
                 <span className="material-symbols-outlined text-3xl">handshake</span>
               </div>
               <h3 className="text-lg md:text-xl font-bold mb-2">4. Handover</h3>
-              <p className="text-sm md:text-base text-on-surface-variant">Final walkthrough and ongoing support.</p>
+              <p className="text-sm md:text-base text-text-muted">Final walkthrough and ongoing support.</p>
             </div>
           </div>
         </div>
       </section>
 
       <section className="py-12 md:py-[80px] max-w-[1200px] mx-auto px-4 sm:px-6 md:px-8">
-        <div className="mb-8 md:mb-12 border-l-4 border-primary-container pl-4 md:pl-6">
+        <div className="mb-8 md:mb-12 border-l-4 border-accent pl-4 md:pl-6">
           <span className="kicker text-primary block mb-2">Capabilities</span>
-          <h2 className="text-2xl md:text-[32px] leading-8 md:leading-[40px] tracking-[-0.01em] font-bold text-on-surface">Our Expertise</h2>
+          <h2 className="text-2xl md:text-[32px] leading-8 md:leading-[40px] tracking-[-0.01em] font-bold text-text">Our Expertise</h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
-          <div className="md:col-span-8 group relative bg-white border border-outline-variant overflow-hidden rounded-lg">
+          <div className="md:col-span-8 group relative bg-white border border-border overflow-hidden rounded-lg">
             <div className="h-[280px] md:h-[400px] overflow-hidden relative">
               <Image
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuCKlkaJ8KWoWPTVAWphI7WFYJXFSNDLTb_XaNNyCt35C52tqFuuyvpTQqGhO9HcnlHP8ht79QnaYQr_rM6G0RcrqMlYw9DDcCJtgXck6tj0MWX0x_TfiFiV44DjUE8TFqzswkj0TloN8IYfbnOaxsqpiulOvZQ_PgYjwFtMzgL5QrO54S2shwHz4IAtzWPVoWx7IGtZUnfQ57JyFiIE2Z-U5VgzFiUgdapzRBJz0o4yMu6dlpS7m7R7PIrXnRlhwQUYij7NJIUhwNI"
@@ -152,17 +152,17 @@ export default function Home() {
               />
             </div>
             <div className="p-4 md:p-6">
-              <h3 className="text-xl md:text-[24px] leading-7 md:leading-[32px] font-semibold text-on-surface mb-2">Commercial Infrastructure</h3>
-              <p className="text-sm md:text-[16px] leading-relaxed md:leading-[24px] text-on-surface-variant mb-4">
+              <h3 className="text-xl md:text-[24px] leading-7 md:leading-[32px] font-semibold text-text mb-2">Commercial Infrastructure</h3>
+              <p className="text-sm md:text-[16px] leading-relaxed md:leading-[24px] text-text-muted mb-4">
                 Scalable solutions for corporate headquarters, industrial complexes, and retail centers that define the modern skyline.
               </p>
-              <div className="flex items-center text-primary-container text-[14px] leading-[20px] tracking-[0.05em] font-semibold cursor-pointer hover:gap-2 transition-all">
+              <div className="flex items-center text-accent text-[14px] leading-[20px] tracking-[0.05em] font-semibold cursor-pointer hover:gap-2 transition-all">
                 LEARN MORE <span className="material-symbols-outlined ml-1">arrow_forward</span>
               </div>
             </div>
           </div>
 
-          <div className="md:col-span-4 group bg-white border border-outline-variant flex flex-col rounded-lg overflow-hidden">
+          <div className="md:col-span-4 group bg-white border border-border flex flex-col rounded-lg overflow-hidden">
             <div className="h-[200px] md:h-[240px] overflow-hidden relative">
               <Image
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuD_evmhEWMKExXSxS3SMM5qbdDYtLlElXwt_cUqVVEp7p3-6ZBvB-7wWPOZL9rBeuQZDVT4bwAb-Lj4zmH9xV6G6dYR7A-dIyoU40afaS3J8GmilgNonnwLjF7nZ__8IHG_OqQOHK5iGA_9JU8-y2BKm7juuRs97Ez5-sw0cc41jCyf5BaDJHW90EtC42gAnZac_2rKGC3pI6my-QHKvje3twsc7u8jxBcFjDS8IuxYXgkNziHVZXZZKHraD4QulsCYluJA-CzdzYk"
@@ -173,12 +173,12 @@ export default function Home() {
               />
             </div>
             <div className="p-4 md:p-6 flex-1">
-              <h3 className="text-xl md:text-[24px] leading-7 md:leading-[32px] font-semibold text-on-surface mb-2">Luxury Residential</h3>
-              <p className="text-sm md:text-[16px] leading-relaxed md:leading-[24px] text-on-surface-variant">Bespoke home construction focused on high-quality finishes and architectural excellence.</p>
+              <h3 className="text-xl md:text-[24px] leading-7 md:leading-[32px] font-semibold text-text mb-2">Luxury Residential</h3>
+              <p className="text-sm md:text-[16px] leading-relaxed md:leading-[24px] text-text-muted">Bespoke home construction focused on high-quality finishes and architectural excellence.</p>
             </div>
           </div>
 
-          <div className="md:col-span-4 group bg-white border border-outline-variant flex flex-col rounded-lg overflow-hidden">
+          <div className="md:col-span-4 group bg-white border border-border flex flex-col rounded-lg overflow-hidden">
             <div className="h-[200px] md:h-[240px] overflow-hidden relative">
               <Image
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuBm71xLOvwoaFwrMw29EVYUEogisso1TkIUTkkhZQk16-yp41yE3-kP7z1o5fMI5Ft47LyBphqw1FhHcokwetdRdRKcXP_aynYaCDcY3Z-kHoIz82loqkd0ZEuKwUl_7FNjs0cph2206bd9yefJwu_946bpHUrlZsK46kirsG3RO1KFJY8_iKcSQUT0TElA4JrwiiTrH2_Kqct3DYnSU6EEmYlkI38WHio8roTJ-EBPiD0qgMMpDW4BrVyH1jHZG0AbKjIXv8C_YWk"
@@ -189,12 +189,12 @@ export default function Home() {
               />
             </div>
             <div className="p-4 md:p-6 flex-1">
-              <h3 className="text-xl md:text-[24px] leading-7 md:leading-[32px] font-semibold text-on-surface mb-2">Strategic Renovation</h3>
-              <p className="text-sm md:text-[16px] leading-relaxed md:leading-[24px] text-on-surface-variant">Transforming legacy structures into high-performance modern assets through expert restoration.</p>
+              <h3 className="text-xl md:text-[24px] leading-7 md:leading-[32px] font-semibold text-text mb-2">Strategic Renovation</h3>
+              <p className="text-sm md:text-[16px] leading-relaxed md:leading-[24px] text-text-muted">Transforming legacy structures into high-performance modern assets through expert restoration.</p>
             </div>
           </div>
 
-          <div className="md:col-span-8 group bg-white border border-outline-variant flex flex-col md:flex-row rounded-lg overflow-hidden">
+          <div className="md:col-span-8 group bg-white border border-border flex flex-col md:flex-row rounded-lg overflow-hidden">
             <div className="md:w-1/2 h-[240px] md:h-auto overflow-hidden relative">
               <Image
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuC0XFJnNSB6ZwiyxV9_vSSqJVifygbdPIPElDPJ-e7uEETeBIRHFKgaN68JK0tKfTvGzsw5oHXm4G7lckB08t0GLk8-qIVlYnlvoaQq-QM4FicC6E9hCPE-N7weZTncgr4VlLiQVzkniazvDaU4n4SpegIaOSXH0ZgffDh5fR41YjF6dx_zKag8aGiTZzT9AsWcByABa8rNPti9kqOjsb08MYOLRV7eXOuLgWiX9igyTk1vlCmrhB4ScF4WMzxG9NmB8OG1ubTpEGc"
@@ -205,9 +205,9 @@ export default function Home() {
               />
             </div>
             <div className="md:w-1/2 p-4 md:p-6 flex flex-col justify-center">
-              <h3 className="text-xl md:text-[24px] leading-7 md:leading-[32px] font-semibold text-on-surface mb-2">Project Management</h3>
-              <p className="text-sm md:text-[16px] leading-relaxed md:leading-[24px] text-on-surface-variant mb-4 md:mb-6">End-to-end oversight ensuring every milestone is achieved with clinical precision and cost-efficiency.</p>
-              <button className="border border-primary-container text-primary-container px-4 md:px-6 py-2 text-[14px] leading-[20px] tracking-[0.05em] font-semibold w-fit hover:bg-primary-container hover:text-white transition-all rounded-lg">
+              <h3 className="text-xl md:text-[24px] leading-7 md:leading-[32px] font-semibold text-text mb-2">Project Management</h3>
+              <p className="text-sm md:text-[16px] leading-relaxed md:leading-[24px] text-text-muted mb-4 md:mb-6">End-to-end oversight ensuring every milestone is achieved with clinical precision and cost-efficiency.</p>
+              <button className="border border-accent text-accent px-4 md:px-6 py-2 text-[14px] leading-[20px] tracking-[0.05em] font-semibold w-fit hover:bg-accent hover:text-white transition-all rounded-lg">
                 VIEW CASE STUDIES
               </button>
             </div>
@@ -215,12 +215,12 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-surface-container py-12 md:py-[80px]">
+      <section className="bg-surface py-12 md:py-[80px]">
         <div className="max-w-[1200px] mx-auto px-4 sm:px-6 md:px-8">
           <div className="text-center mb-10 md:mb-16">
             <span className="kicker text-secondary">Common Questions</span>
-            <h2 className="text-2xl md:text-[32px] leading-8 md:leading-[40px] tracking-[-0.01em] font-bold text-on-surface mt-2 mb-4">Frequently Asked Questions</h2>
-            <p className="text-base md:text-[18px] leading-relaxed md:leading-[28px] text-on-surface-variant max-w-2xl mx-auto">
+            <h2 className="text-2xl md:text-[32px] leading-8 md:leading-[40px] tracking-[-0.01em] font-bold text-text mt-2 mb-4">Frequently Asked Questions</h2>
+            <p className="text-base md:text-[18px] leading-relaxed md:leading-[28px] text-text-muted max-w-2xl mx-auto">
               Everything you need to know about working with SANDOWN DEVELOPMENTS LTD.
             </p>
           </div>
@@ -228,7 +228,7 @@ export default function Home() {
             <details className="faq-item group">
               <summary className="faq-summary">
                 What types of projects do you specialize in?
-                <span className="material-symbols-outlined text-primary-container group-open:rotate-180 transition-transform">expand_more</span>
+                <span className="material-symbols-outlined text-accent group-open:rotate-180 transition-transform">expand_more</span>
               </summary>
               <p className="faq-answer">
                 We specialize in large-scale commercial developments (offices, retail, industrial), premium residential builds, and strategic renovations/extensions.
@@ -237,7 +237,7 @@ export default function Home() {
             <details className="faq-item group">
               <summary className="faq-summary">
                 How long does a typical project take?
-                <span className="material-symbols-outlined text-primary-container group-open:rotate-180 transition-transform">expand_more</span>
+                <span className="material-symbols-outlined text-accent group-open:rotate-180 transition-transform">expand_more</span>
               </summary>
               <p className="faq-answer">
                 Timelines vary based on scale. A residential extension may take 3-6 months, while a commercial build can take 12-24 months. We provide a detailed schedule during consultation.
@@ -246,7 +246,7 @@ export default function Home() {
             <details className="faq-item group">
               <summary className="faq-summary">
                 Do you handle planning permissions?
-                <span className="material-symbols-outlined text-primary-container group-open:rotate-180 transition-transform">expand_more</span>
+                <span className="material-symbols-outlined text-accent group-open:rotate-180 transition-transform">expand_more</span>
               </summary>
               <p className="faq-answer">
                 Yes, our in-house team manages all necessary planning applications, building regulations, and compliance with UK standards.
@@ -255,7 +255,7 @@ export default function Home() {
             <details className="faq-item group">
               <summary className="faq-summary">
                 Can I visit a previous project site?
-                <span className="material-symbols-outlined text-primary-container group-open:rotate-180 transition-transform">expand_more</span>
+                <span className="material-symbols-outlined text-accent group-open:rotate-180 transition-transform">expand_more</span>
               </summary>
               <p className="faq-answer">
                 Absolutely. We arrange site visits to completed projects upon request, subject to client permissions.
@@ -266,19 +266,19 @@ export default function Home() {
       </section>
 
       <section className="max-w-[1200px] mx-auto px-4 sm:px-6 md:px-8 py-12 md:py-[60px]">
-        <div className="bg-surface-container-high rounded-2xl p-6 md:p-10 flex flex-col md:flex-row justify-between items-center gap-6">
+        <div className="bg-surface rounded-2xl p-6 md:p-10 flex flex-col md:flex-row justify-between items-center gap-6">
           <div>
-            <h3 className="text-xl md:text-2xl font-bold text-on-surface mb-2">Let's discuss your project</h3>
-            <p className="text-sm md:text-base text-on-surface-variant">Reach out to our team for a free consultation and quote.</p>
+            <h3 className="text-xl md:text-2xl font-bold text-text mb-2">Let's discuss your project</h3>
+            <p className="text-sm md:text-base text-text-muted">Reach out to our team for a free consultation and quote.</p>
           </div>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link href="/contact">
-              <button className="bg-primary-container text-white px-6 py-2 md:px-8 md:py-3 rounded-lg text-[14px] leading-[20px] tracking-[0.05em] font-semibold hover:brightness-110 transition-all">
+              <button className="bg-accent text-white px-6 py-2 md:px-8 md:py-3 rounded-lg text-[14px] leading-[20px] tracking-[0.05em] font-semibold hover:brightness-110 transition-all">
                 Enquire Now
               </button>
             </Link>
             <a href="mailto:info@sandowndevelopments.co.uk">
-              <button className="border border-primary-container text-primary-container px-6 py-2 md:px-8 md:py-3 rounded-lg text-[14px] leading-[20px] tracking-[0.05em] font-semibold hover:bg-primary-container hover:text-white transition-all">
+              <button className="border border-accent text-accent px-6 py-2 md:px-8 md:py-3 rounded-lg text-[14px] leading-[20px] tracking-[0.05em] font-semibold hover:bg-accent hover:text-white transition-all">
                 Email: info@sandowndevelopments.co.uk
               </button>
             </a>

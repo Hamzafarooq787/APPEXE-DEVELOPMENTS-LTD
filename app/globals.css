@@ -1,27 +1,14 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary:                    #006d37;
-  --color-on-primary:                 #ffffff;
-  --color-primary-container:          #2ecc71;
-  --color-on-primary-container:       #005027;
-
-  --color-secondary:                  #865300;
-  --color-on-secondary:               #ffffff;
-  --color-secondary-container:        #f39c12;
-  --color-on-secondary-container:     #694000;
-
-  --color-surface:                    #fcf9f8;
-  --color-on-surface:                 #1c1b1b;
-  --color-on-surface-variant:         #3d4a3e;
-
-  --color-surface-container-lowest:   #ffffff;
-  --color-surface-container-low:      #f6f3f2;
-  --color-surface-container:          #f0eded;
-  --color-surface-container-high:     #eae7e7;
-  --color-surface-container-highest:  #e5e2e1;
-
-  --color-outline-variant:            #bbcbbb;
+  --color-primary:      #006d37; /* dark green — nav active, text links, brand */
+  --color-accent:       #2ecc71; /* bright green — CTA buttons, icons, highlights */
+  --color-secondary:    #865300; /* amber — kicker labels, secondary buttons */
+  --color-text:         #1c1b1b; /* main body text */
+  --color-text-muted:   #3d4a3e; /* subdued body text, captions */
+  --color-background:   #fcf9f8; /* page background */
+  --color-surface:      #f0eded; /* section and card backgrounds */
+  --color-border:       #bbcbbb; /* borders and dividers */
 
   --radius-DEFAULT: 0.125rem;
   --radius-lg:      0.25rem;
@@ -30,8 +17,8 @@
 }
 
 body {
-  background-color: var(--color-surface);
-  color: var(--color-on-surface);
+  background-color: var(--color-background);
+  color: var(--color-text);
   font-family: 'Inter', system-ui, sans-serif;
 }
 
@@ -44,13 +31,13 @@ body {
 }
 
 .faq-item {
-  @apply bg-white rounded-lg border border-outline-variant p-4 md:p-6;
+  @apply bg-white rounded-lg border border-border p-4 md:p-6;
 }
 
 .faq-summary {
-  @apply font-semibold text-on-surface text-base md:text-lg cursor-pointer list-none flex justify-between items-center;
+  @apply font-semibold text-text text-base md:text-lg cursor-pointer list-none flex justify-between items-center;
 }
 
 .faq-answer {
-  @apply mt-3 text-sm md:text-base text-on-surface-variant pt-3 border-t border-outline-variant;
+  @apply mt-3 text-sm md:text-base text-text-muted pt-3 border-t border-border;
 }
