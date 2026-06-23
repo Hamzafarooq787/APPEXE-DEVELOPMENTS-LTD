@@ -75,6 +75,11 @@ const securityHeaders = [
     key: 'Cross-Origin-Resource-Policy',
     value: 'same-origin',
   },
+  // Disables browser features/APIs not used by this site
+  {
+    key: 'Permissions-Policy',
+    value: 'camera=(), microphone=(), geolocation=(), interest-cohort=()',
+  },
 ]
 
 const nextConfig: NextConfig = {
