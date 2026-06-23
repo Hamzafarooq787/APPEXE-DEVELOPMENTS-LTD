@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useRef, useEffect } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { usePathname } from 'next/navigation'
@@ -8,6 +8,7 @@ import { usePathname } from 'next/navigation'
 export default function Header() {
   const pathname = usePathname()
   const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const headerRef = useRef<HTMLElement>(null)
 
   const isActive = (path: string) => {
     if (path === '/' && pathname === '/') return true
@@ -15,12 +16,23 @@ export default function Header() {
     return false
   }
 
-  const handleLinkClick = () => {
+  useEffect(() => {
     setIsMenuOpen(false)
-  }
+  }, [pathname])
+
+  useEffect(() => {
+    if (!isMenuOpen) return
+    function handleOutsideClick(e: MouseEvent) {
+      if (headerRef.current && !headerRef.current.contains(e.target as Node)) {
+        setIsMenuOpen(false)
+      }
+    }
+    document.addEventListener('mousedown', handleOutsideClick)
+    return () => document.removeEventListener('mousedown', handleOutsideClick)
+  }, [isMenuOpen])
 
   return (
-    <header className="w-full sticky top-0 z-50 border-b bg-background border-border shadow-none">
+    <header ref={headerRef} className="w-full sticky top-0 z-50 border-b bg-background border-border shadow-none">
       <div className="max-w-[1200px] mx-auto flex justify-between items-center px-4 sm:px-6 md:px-8 h-16 md:h-20">
 
         <Link href="/" className="flex items-center gap-2">
@@ -38,32 +50,29 @@ export default function Header() {
           <Link href="/" className={`text-sm uppercase font-semibold pb-1 ${isActive('/') ? 'text-primary border-b-2 border-primary' : 'text-text-muted hover:text-primary'}`}>
             Home
           </Link>
-
           <Link href="/about" className={`text-sm uppercase font-semibold pb-1 ${isActive('/about') ? 'text-primary border-b-2 border-primary' : 'text-text-muted hover:text-primary'}`}>
             About
           </Link>
-
           <Link href="/services" className={`text-sm uppercase font-semibold pb-1 ${isActive('/services') ? 'text-primary border-b-2 border-primary' : 'text-text-muted hover:text-primary'}`}>
             Services
           </Link>
-
           <Link href="/contact" className={`text-sm uppercase font-semibold pb-1 ${isActive('/contact') ? 'text-primary border-b-2 border-primary' : 'text-text-muted hover:text-primary'}`}>
             Contact Us
           </Link>
         </nav>
 
         <div className="flex items-center gap-3 sm:gap-4">
-
           <Link href="/contact">
             <button className="bg-accent text-primary text-[12px] sm:text-[14px] font-semibold px-3 py-1.5 sm:px-4 sm:py-2 md:px-6 md:py-2.5 rounded-lg whitespace-nowrap">
-              Enquire Now
+              Get a free quote
             </button>
           </Link>
 
           <button
-            onClick={() => setIsMenuOpen(!isMenuOpen)}
+            onClick={() => setIsMenuOpen(prev => !prev)}
             className="md:hidden flex items-center justify-center w-8 h-8 text-text"
-            aria-label="Toggle menu"
+            aria-label={isMenuOpen ? 'Close menu' : 'Open menu'}
+            aria-expanded={isMenuOpen}
           >
             <span className="material-symbols-outlined text-2xl">
               {isMenuOpen ? 'close' : 'menu'}
@@ -75,23 +84,18 @@ export default function Header() {
       {isMenuOpen && (
         <div className="md:hidden bg-background border-t border-border py-4 px-4">
           <nav className="flex flex-col space-y-3">
-
-            <Link href="/" onClick={handleLinkClick} className="text-sm uppercase font-semibold py-2 px-3">
+            <Link href="/" onClick={() => setIsMenuOpen(false)} className="text-sm uppercase font-semibold py-2 px-3">
               Home
             </Link>
-
-            <Link href="/about" onClick={handleLinkClick} className="text-sm uppercase font-semibold py-2 px-3">
+            <Link href="/about" onClick={() => setIsMenuOpen(false)} className="text-sm uppercase font-semibold py-2 px-3">
               About
             </Link>
-
-            <Link href="/services" onClick={handleLinkClick} className="text-sm uppercase font-semibold py-2 px-3">
+            <Link href="/services" onClick={() => setIsMenuOpen(false)} className="text-sm uppercase font-semibold py-2 px-3">
               Services
             </Link>
-
-            <Link href="/contact" onClick={handleLinkClick} className="text-sm uppercase font-semibold py-2 px-3">
+            <Link href="/contact" onClick={() => setIsMenuOpen(false)} className="text-sm uppercase font-semibold py-2 px-3">
               Contact Us
             </Link>
-
           </nav>
         </div>
       )}

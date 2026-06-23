@@ -10,7 +10,7 @@ export default function ServicesPage() {
             Precision Engineering & Construction
           </p>
           <h1 className="text-3xl sm:text-4xl md:text-[48px] leading-tight md:leading-[56px] tracking-[-0.02em] font-bold text-text mb-4 md:mb-6">
-            Built for Excellence, Designed for Life.
+            New Builds, Extensions and Commercial Construction from Initial Brief to Final Handover.
           </h1>
           <p className="text-base md:text-[18px] leading-relaxed md:leading-[28px] text-text-muted">
             SANDOWN DEVELOPMENTS LTD delivers end-to-end construction across commercial and residential sectors, combining modular building techniques with traditional craftsmanship.
@@ -45,7 +45,7 @@ export default function ServicesPage() {
           </ul>
           <Link href="/portfolio">
             <button className="bg-secondary text-white px-6 md:px-8 py-2.5 md:py-3 rounded-lg text-[14px] leading-[20px] tracking-[0.05em] font-semibold hover:brightness-110 transition-all">
-              Download Portfolio
+              View our project portfolio
             </button>
           </Link>
         </div>
@@ -169,7 +169,7 @@ export default function ServicesPage() {
             </Link>
             <Link href="/portfolio">
               <button className="bg-transparent border-2 border-white text-white px-8 md:px-10 py-3 md:py-4 rounded-full text-[14px] leading-[20px] tracking-[0.05em] font-semibold hover:bg-white hover:text-primary transition-all">
-                Download Brochure
+                Download our project brochure
               </button>
             </Link>
           </div>
