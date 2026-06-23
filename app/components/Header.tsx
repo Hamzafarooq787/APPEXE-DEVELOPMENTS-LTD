@@ -20,7 +20,7 @@ export default function Header() {
   }
 
   return (
-    <header className="w-full sticky top-0 z-50 border-b bg-white border-slate-200 shadow-none">
+    <header className="w-full sticky top-0 z-50 border-b bg-background border-border shadow-none">
       <div className="max-w-[1200px] mx-auto flex justify-between items-center px-4 sm:px-6 md:px-8 h-16 md:h-20">
 
         <Link href="/" className="flex items-center gap-2">
@@ -35,19 +35,19 @@ export default function Header() {
         </Link>
 
         <nav className="hidden md:flex items-center gap-6 lg:gap-8">
-          <Link href="/" className={`text-sm uppercase font-semibold pb-1 ${isActive('/') ? 'text-primary border-b-2 border-primary' : 'text-slate-600 hover:text-primary'}`}>
+          <Link href="/" className={`text-sm uppercase font-semibold pb-1 ${isActive('/') ? 'text-primary border-b-2 border-primary' : 'text-text-muted hover:text-primary'}`}>
             Home
           </Link>
 
-          <Link href="/about" className={`text-sm uppercase font-semibold pb-1 ${isActive('/about') ? 'text-primary border-b-2 border-primary' : 'text-slate-600 hover:text-primary'}`}>
+          <Link href="/about" className={`text-sm uppercase font-semibold pb-1 ${isActive('/about') ? 'text-primary border-b-2 border-primary' : 'text-text-muted hover:text-primary'}`}>
             About
           </Link>
 
-          <Link href="/services" className={`text-sm uppercase font-semibold pb-1 ${isActive('/services') ? 'text-primary border-b-2 border-primary' : 'text-slate-600 hover:text-primary'}`}>
+          <Link href="/services" className={`text-sm uppercase font-semibold pb-1 ${isActive('/services') ? 'text-primary border-b-2 border-primary' : 'text-text-muted hover:text-primary'}`}>
             Services
           </Link>
 
-          <Link href="/contact" className={`text-sm uppercase font-semibold pb-1 ${isActive('/contact') ? 'text-primary border-b-2 border-primary' : 'text-slate-600 hover:text-primary'}`}>
+          <Link href="/contact" className={`text-sm uppercase font-semibold pb-1 ${isActive('/contact') ? 'text-primary border-b-2 border-primary' : 'text-text-muted hover:text-primary'}`}>
             Contact Us
           </Link>
         </nav>
@@ -55,14 +55,14 @@ export default function Header() {
         <div className="flex items-center gap-3 sm:gap-4">
 
           <Link href="/contact">
-            <button className="bg-primary-container text-on-primary-container text-[12px] sm:text-[14px] font-semibold px-3 py-1.5 sm:px-4 sm:py-2 md:px-6 md:py-2.5 rounded-lg whitespace-nowrap">
+            <button className="bg-accent text-primary text-[12px] sm:text-[14px] font-semibold px-3 py-1.5 sm:px-4 sm:py-2 md:px-6 md:py-2.5 rounded-lg whitespace-nowrap">
               Enquire Now
             </button>
           </Link>
 
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="md:hidden flex items-center justify-center w-8 h-8 text-slate-700"
+            className="md:hidden flex items-center justify-center w-8 h-8 text-text"
             aria-label="Toggle menu"
           >
             <span className="material-symbols-outlined text-2xl">
@@ -73,7 +73,7 @@ export default function Header() {
       </div>
 
       {isMenuOpen && (
-        <div className="md:hidden bg-white border-t border-slate-200 py-4 px-4">
+        <div className="md:hidden bg-background border-t border-border py-4 px-4">
           <nav className="flex flex-col space-y-3">
 
             <Link href="/" onClick={handleLinkClick} className="text-sm uppercase font-semibold py-2 px-3">
