@@ -21,7 +21,7 @@ export default function AboutPage() {
           <div className="flex flex-wrap gap-3 sm:gap-4">
             <Link href="/portfolio">
               <button className="bg-accent text-white px-6 sm:px-8 py-3 sm:py-4 text-[14px] leading-[20px] tracking-[0.05em] font-semibold rounded-sm hover:brightness-110 transition-all uppercase">
-                Our Portfolio
+                View our completed projects
               </button>
             </Link>
             <Link href="/team">

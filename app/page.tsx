@@ -4,7 +4,7 @@ import FadeInSection from './components/FadeInSection'
 
 export default function Home() {
   return (
-    <>
+    <main>
       <section className="relative min-h-[520px] sm:min-h-[640px] md:h-[870px] py-16 md:py-0 flex items-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
@@ -20,7 +20,7 @@ export default function Home() {
         <div className="relative z-10 max-w-[1200px] mx-auto px-4 sm:px-6 md:px-8 w-full">
           <div className="max-w-2xl">
             <h1 className="text-3xl sm:text-4xl md:text-[48px] leading-tight md:leading-[56px] tracking-[-0.02em] font-bold text-white mb-4 md:mb-6">
-              Building the Future with <span className="text-accent">Structural Integrity</span> and Modern Innovation.
+              New Builds, Extensions and Commercial Projects Delivered with <span className="text-accent">Structural Integrity</span>.
             </h1>
             <p className="text-base md:text-[18px] leading-relaxed md:leading-[28px] text-white/90 mb-6 md:mb-10">
               SANDOWN DEVELOPMENTS LTD delivers large-scale commercial and premium residential projects with systematic precision and transparent management.
@@ -33,7 +33,7 @@ export default function Home() {
               </Link>
               <Link href="/portfolio">
                 <button className="bg-white/10 backdrop-blur-md border border-white/30 text-white text-[14px] leading-[20px] tracking-[0.05em] font-semibold px-6 sm:px-10 py-3 sm:py-4 rounded-lg hover:bg-white/20 transition-all uppercase w-full sm:w-auto">
-                  View Portfolio
+                  See our completed projects
                 </button>
               </Link>
             </div>
@@ -47,7 +47,7 @@ export default function Home() {
           <span className="kicker text-primary">Our Work</span>
           <h2 className="text-2xl md:text-[32px] leading-8 md:leading-[40px] tracking-[-0.01em] font-bold text-text mt-2 mb-4">Featured Developments</h2>
           <p className="text-base md:text-[18px] leading-relaxed md:leading-[28px] text-text-muted max-w-2xl mx-auto">
-            Showcasing our commitment to quality and innovation across the UK.
+            Residential and commercial builds completed on programme and to specification across the UK.
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
@@ -89,7 +89,7 @@ export default function Home() {
         <div className="text-center mt-8 md:mt-12">
           <Link href="/services">
             <button className="border border-accent text-accent px-6 md:px-8 py-2 md:py-3 rounded-lg text-[14px] leading-[20px] tracking-[0.05em] font-semibold hover:bg-accent hover:text-white transition-all">
-              View All Projects
+              See all completed projects
             </button>
           </Link>
         </div>
@@ -229,7 +229,7 @@ export default function Home() {
             <span className="kicker text-secondary">Common Questions</span>
             <h2 className="text-2xl md:text-[32px] leading-8 md:leading-[40px] tracking-[-0.01em] font-bold text-text mt-2 mb-4">Frequently Asked Questions</h2>
             <p className="text-base md:text-[18px] leading-relaxed md:leading-[28px] text-text-muted max-w-2xl mx-auto">
-              Everything you need to know about working with SANDOWN DEVELOPMENTS LTD.
+              Common questions about working with SANDOWN DEVELOPMENTS LTD.
             </p>
           </div>
           <div className="max-w-3xl mx-auto space-y-4 md:space-y-6">
@@ -294,6 +294,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-    </>
+    </main>
   )
 }
