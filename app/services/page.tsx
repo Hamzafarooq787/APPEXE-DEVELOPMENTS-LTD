@@ -23,7 +23,7 @@ export default function ServicesPage() {
       <section className="py-12 md:py-[80px] grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
         <div className="order-2 md:order-1">
           <div className="flex items-center gap-2 mb-3 md:mb-4">
-            <span className="material-symbols-outlined text-primary-container text-2xl md:text-3xl" style={{ fontVariationSettings: "'FILL' 1" }}>
+            <span className="material-symbols-outlined icon-filled text-primary-container text-2xl md:text-3xl">
               architecture
             </span>
             <h2 className="text-xl md:text-[24px] leading-7 md:leading-[32px] font-semibold text-on-surface">New Builds</h2>
@@ -81,7 +81,7 @@ export default function ServicesPage() {
         </div>
         <div className="order-2">
           <div className="flex items-center gap-2 mb-3 md:mb-4">
-            <span className="material-symbols-outlined text-primary-container text-2xl md:text-3xl" style={{ fontVariationSettings: "'FILL' 1" }}>
+            <span className="material-symbols-outlined icon-filled text-primary-container text-2xl md:text-3xl">
               add_home
             </span>
             <h2 className="text-xl md:text-[24px] leading-7 md:leading-[32px] font-semibold text-on-surface">Extensions & Renovations</h2>
@@ -111,7 +111,7 @@ export default function ServicesPage() {
       <section className="py-12 md:py-[80px] grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
         <div className="order-2 md:order-1">
           <div className="flex items-center gap-2 mb-3 md:mb-4">
-            <span className="material-symbols-outlined text-primary-container text-2xl md:text-3xl" style={{ fontVariationSettings: "'FILL' 1" }}>
+            <span className="material-symbols-outlined icon-filled text-primary-container text-2xl md:text-3xl">
               business
             </span>
             <h2 className="text-xl md:text-[24px] leading-7 md:leading-[32px] font-semibold text-on-surface">Commercial Developments</h2>
