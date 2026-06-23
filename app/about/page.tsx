@@ -35,7 +35,7 @@ export default function AboutPage() {
           <div className="absolute -top-3 -right-3 sm:-top-4 sm:-right-4 w-full h-full border-2 border-secondary z-0"></div>
           <Image
             src="https://lh3.googleusercontent.com/aida-public/AB6AXuCCw6av6AQL3JkXg43_HRd5jrVt82dIjbKoihc9abPgCiTbSpM44FIt8qPR9299XfqvUY1YSmNAQzgY3hBlXUrEAAxzGf3jXj04ZDz3k18VC2lLBqddALN-zj209TiUmTgHskHlaqpy5bTe8AX9uOzk2HXMiU6QSL3Vwi0Dra_z3sAU-qAcvLUdFa6NDHQktliDJb3wYSca4MzhPkrXaOzjAkUD_rIu33FcMROKTf5BQa6XScOEpWRb1P1GdlkABOeH9t0T80Sx1Dk"
-            alt="Construction site overview with steel frames"
+            alt="SANDOWN site overview showing reinforced concrete foundations and steel frame at ground floor level"
             width={800}
             height={500}
             className="relative z-10 w-full h-auto md:h-[500px] object-cover grayscale hover:grayscale-0 transition-all duration-700"
@@ -59,7 +59,7 @@ export default function AboutPage() {
               <span className="material-symbols-outlined text-accent text-3xl md:text-4xl mb-4">architecture</span>
               <h3 className="text-xl md:text-[24px] leading-7 md:leading-[32px] font-semibold mb-3 md:mb-4 uppercase">Our Core Mission</h3>
               <p className="text-sm md:text-[16px] leading-relaxed md:leading-[24px] text-text-muted mb-6">
-                To transform the urban landscape through innovative engineering and sustainable building practices. We don't just build structures; we build the foundations for future commerce and community living.
+                To improve the built environment through precision engineering and sustainable building practices. We don't just build structures; we build the foundations for future commerce and community living.
               </p>
             </div>
             <div className="bg-surface p-3 md:p-4 border-l-4 border-accent">
@@ -89,7 +89,7 @@ export default function AboutPage() {
             <div className="flex-1 text-center md:text-left">
               <h3 className="text-xl md:text-[24px] leading-7 md:leading-[32px] font-semibold mb-2 uppercase">Modern Methodology</h3>
               <p className="text-sm md:text-[16px] leading-relaxed md:leading-[24px] opacity-90">
-                Leveraging BIM technology and modular construction techniques to reduce waste and accelerate project timelines without sacrificing precision.
+                Using BIM technology and modular construction techniques to reduce waste and keep projects on programme without cutting corners.
               </p>
             </div>
             <span className="material-symbols-outlined text-5xl md:text-6xl opacity-20">construction</span>
@@ -135,7 +135,7 @@ export default function AboutPage() {
             <div className="bg-white border border-border overflow-hidden rounded-sm">
               <Image
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuAu31pMocs0Pt-N6QexWquAiwHsv8yXBilEeAr4mpUiJjzKORIuxOOPrRN7JDzTwixI0kAYh_J73pKoy2Cq6-RSgNyz-V4RiNpOnbP6QJV9A-ZgK3gV91wBL7CEzYpw9IErG9y32EB2sfrefavkcA-ldRo40mDxOPImbROs4a2eAe6zGrWndpJ7f8dwtXIaUySh09K--7i-biolqEDC3OvSGksL3jKeMhDhBUIGEioc9qcz-DcLWvfilFwlSNbuqIf4x0nbRJUujME"
-                alt="Corporate headquarters building"
+                alt="Completed corporate headquarters building in the Midlands, one of SANDOWN's early commercial projects"
                 width={400}
                 height={192}
                 className="w-full h-40 sm:h-48 object-cover"
@@ -153,7 +153,7 @@ export default function AboutPage() {
             <div className="bg-white border border-border overflow-hidden rounded-sm">
               <Image
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuD3HM1B6EK-BMcjpdrmywbPxymMjGIfzcMzmjIhq_XFCqoeJsFnM7vPzrmwO3M0xnZBYsseoKYL9uZxXYUgSa5ffiIUSF0IhVeslPdDcSzN7BQoKwWtLbwth8NB6kOoFosEt_pnC4iAzWRcHCDXPOMJyXOjzhx5Us2UwvvShonxMrTigjsV9yfiAseks6cbCEk9dwtJnzKstBF1kQ6ess2CxXWFynz5LCIvHBBhd5OtcTZta1glc_tT1K-6oHaSvxODUZlqloqnTrc"
-                alt="Modern residential interior"
+                alt="Residential interior after full fit-out, showing open-plan kitchen-diner with feature island and glazed rear extension"
                 width={400}
                 height={192}
                 className="w-full h-40 sm:h-48 object-cover"

@@ -13,7 +13,7 @@ export default function ServicesPage() {
             Built for Excellence, Designed for Life.
           </h1>
           <p className="text-base md:text-[18px] leading-relaxed md:leading-[28px] text-text-muted">
-            SANDOWN DEVELOPMENTS LTD delivers end-to-end construction solutions across commercial and residential sectors, combining innovative modularity with traditional craftsmanship.
+            SANDOWN DEVELOPMENTS LTD delivers end-to-end construction across commercial and residential sectors, combining modular building techniques with traditional craftsmanship.
           </p>
         </div>
       </header>
@@ -53,7 +53,7 @@ export default function ServicesPage() {
           <div className="aspect-video bg-surface overflow-hidden rounded-xl border border-border">
             <Image
               src="https://lh3.googleusercontent.com/aida-public/AB6AXuCpBwi25rWZukt5AfFq0kEYZrYdJEx9cRW_8Pig7Bslc_a5b_F_I8mwZ3qaN_GPJyAadOOo4YfUeKru9JnfZqbIiFX3OPPwmPt_Eg1bHxg7HiO8n-Z5Etc423y5nFhhg-WBnActhVBLcvFB5mRMrbcUZDdQUPsAelMGz9KYStjQ6Er2M8T65eHVKfIrrRznS0ZB6u3VwR2x0zi6md_9eh4XkRdaeYQXd-5qj1V4pdaffQIaZSvSrukKtPLB-gLmz4tAnYoHiBkOQT8"
-              alt="Modern new build construction"
+              alt="Timber frame structure mid-construction for a new residential build in Staffordshire"
               width={600}
               height={400}
               className="w-full h-full object-cover"
@@ -68,7 +68,7 @@ export default function ServicesPage() {
           <div className="aspect-video bg-surface overflow-hidden rounded-xl border border-border">
             <Image
               src="https://lh3.googleusercontent.com/aida-public/AB6AXuBKL7uxKmBvJ3QevIMMEmIsX5isKdTVfZNlIXjtRFdPJRNsZY-CxqJBYR4c5CRPC6f7WsEwk6RuxrtVxV6xrnteDx4i4Sod2ui5Id80_UFUvdvNiZ7H0vEvrDvS1oSIcaonPXnuOO5fox9JffA7SS8ZPw3_-VKl5fH092vIunrvvqPyc_GPXlZ29OKqT0xoh0w7o1ZSWhZtyQsDsyq4-deDUxyax5rwi1-baMQoV_LKGpNjli-wfl5T-sEAVIOSFlg1uUfWQMd2oIs"
-              alt="Luxury home extension"
+              alt="Two-storey rear extension with bi-fold doors and pitched roof, shown before external render"
               width={600}
               height={400}
               className="w-full h-full object-cover"
@@ -84,7 +84,7 @@ export default function ServicesPage() {
             <h2 className="text-xl md:text-[24px] leading-7 md:leading-[32px] font-semibold text-text">Extensions & Renovations</h2>
           </div>
           <p className="text-sm md:text-[16px] leading-relaxed md:leading-[24px] text-text-muted mb-4 md:mb-6">
-            Maximizing the potential of existing structures through intelligent design and seamless integration. Whether it's a multi-story extension or a complete internal reconfiguration, our team ensures the new matches the quality of the original.
+            Maximizing the potential of existing structures through intelligent design and careful integration. Whether it's a multi-storey extension or a complete internal reconfiguration, every new element is built to match — or exceed — the quality of the original.
           </p>
           <div className="grid grid-cols-2 gap-3 md:gap-4 mb-6 md:mb-8">
             <div className="p-3 md:p-4 bg-surface rounded-lg border border-border">
@@ -113,7 +113,7 @@ export default function ServicesPage() {
             <h2 className="text-xl md:text-[24px] leading-7 md:leading-[32px] font-semibold text-text">Commercial Developments</h2>
           </div>
           <p className="text-sm md:text-[16px] leading-relaxed md:leading-[24px] text-text-muted mb-4 md:mb-6">
-            Specialized construction for the corporate sector, including retail units, office complexes, and industrial warehouses. We prioritize modular layouts that allow for future scalability and operational efficiency.
+            Specialized construction for the corporate sector, including retail units, office complexes, and industrial warehouses. We prioritize modular layouts designed for future growth and long-term operational efficiency.
           </p>
           <div className="space-y-3 md:space-y-4">
             <div className="flex items-center gap-3 md:gap-4 p-3 md:p-4 bg-white border border-border rounded-xl shadow-sm">
@@ -121,7 +121,7 @@ export default function ServicesPage() {
                 <span className="material-symbols-outlined text-primary text-xl md:text-2xl">precision_manufacturing</span>
               </div>
               <div>
-                <p className="text-[13px] md:text-[14px] leading-[18px] md:leading-[20px] tracking-[0.05em] font-semibold">Industrial Scalability</p>
+                <p className="text-[13px] md:text-[14px] leading-[18px] md:leading-[20px] tracking-[0.05em] font-semibold">Industrial Capacity</p>
                 <p className="text-[11px] md:text-[12px] leading-[14px] md:leading-[16px] font-medium text-text-muted">Built for heavy-duty operational demands.</p>
               </div>
             </div>
@@ -140,7 +140,7 @@ export default function ServicesPage() {
           <div className="aspect-video bg-surface overflow-hidden rounded-xl border border-border">
             <Image
               src="https://lh3.googleusercontent.com/aida-public/AB6AXuBw1CJ85ro3p-IgZ9z0qgt-x2uc-IKYmguk9c2cOiw-M27q_t0hMvJ6Wks14EkjrRTBsPtUk1S-Wdsd_92HfFomHRiRy3f7qPaPuz52Ak_rSgy7EtYwR4BDwGa-SR50oLukJRNN40VuB7iCUIkM6XN2QlkDMTD8OhHq-BgKYnA8EFWv-dJgb3ZIZDyQrx33aL-GOSp7vcoatNtB0DeenjuczYktEKF8y7rDNVuKCYlK-f_a0pQNzOLyvSWgsHLMrKimDkgFP0KKvgk"
-              alt="Commercial office building"
+              alt="Commercial office complex near practical completion, showing steel frame and glazed curtain wall"
               width={600}
               height={400}
               className="w-full h-full object-cover"
