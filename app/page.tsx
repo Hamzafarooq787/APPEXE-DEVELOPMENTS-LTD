@@ -44,7 +44,7 @@ export default function Home() {
       {/* Featured Projects / Recent Developments */}
       <section className="py-12 md:py-[80px] max-w-[1200px] mx-auto px-4 sm:px-6 md:px-8">
         <div className="text-center mb-10 md:mb-16">
-          <span className="text-[14px] leading-[20px] tracking-[0.05em] font-semibold text-primary uppercase">Our Work</span>
+          <span className="kicker text-primary">Our Work</span>
           <h2 className="text-2xl md:text-[32px] leading-8 md:leading-[40px] tracking-[-0.01em] font-bold text-on-surface mt-2 mb-4">Featured Developments</h2>
           <p className="text-base md:text-[18px] leading-relaxed md:leading-[28px] text-on-surface-variant max-w-2xl mx-auto">
             Showcasing our commitment to quality and innovation across the UK.
@@ -101,7 +101,7 @@ export default function Home() {
       <section className="bg-surface-container py-12 md:py-[80px]">
         <div className="max-w-[1200px] mx-auto px-4 sm:px-6 md:px-8">
           <div className="text-center mb-10 md:mb-16">
-            <span className="text-[14px] leading-[20px] tracking-[0.05em] font-semibold text-secondary uppercase">Seamless Experience</span>
+            <span className="kicker text-secondary">Seamless Experience</span>
             <h2 className="text-2xl md:text-[32px] leading-8 md:leading-[40px] tracking-[-0.01em] font-bold text-on-surface mt-2 mb-4">How We Work</h2>
             <p className="text-base md:text-[18px] leading-relaxed md:leading-[28px] text-on-surface-variant max-w-2xl mx-auto">
               From initial consultation to final handover, our systematic approach ensures clarity and excellence.
@@ -143,7 +143,7 @@ export default function Home() {
       {/* Our Expertise */}
       <section className="py-12 md:py-[80px] max-w-[1200px] mx-auto px-4 sm:px-6 md:px-8">
         <div className="mb-8 md:mb-12 border-l-4 border-primary-container pl-4 md:pl-6">
-          <span className="text-[14px] leading-[20px] tracking-[0.05em] font-semibold text-primary uppercase block mb-2">Capabilities</span>
+          <span className="kicker text-primary block mb-2">Capabilities</span>
           <h2 className="text-2xl md:text-[32px] leading-8 md:leading-[40px] tracking-[-0.01em] font-bold text-on-surface">Our Expertise</h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
@@ -229,50 +229,46 @@ export default function Home() {
       <section className="bg-surface-container py-12 md:py-[80px]">
         <div className="max-w-[1200px] mx-auto px-4 sm:px-6 md:px-8">
           <div className="text-center mb-10 md:mb-16">
-            <span className="text-[14px] leading-[20px] tracking-[0.05em] font-semibold text-secondary uppercase">Common Questions</span>
+            <span className="kicker text-secondary">Common Questions</span>
             <h2 className="text-2xl md:text-[32px] leading-8 md:leading-[40px] tracking-[-0.01em] font-bold text-on-surface mt-2 mb-4">Frequently Asked Questions</h2>
             <p className="text-base md:text-[18px] leading-relaxed md:leading-[28px] text-on-surface-variant max-w-2xl mx-auto">
               Everything you need to know about working with SANDOWN DEVELOPMENTS LTD.
             </p>
           </div>
           <div className="max-w-3xl mx-auto space-y-4 md:space-y-6">
-            {/* FAQ 1 */}
-            <details className="bg-white rounded-lg border border-outline-variant p-4 md:p-6 group">
-              <summary className="font-semibold text-on-surface text-base md:text-lg cursor-pointer list-none flex justify-between items-center">
+            <details className="faq-item group">
+              <summary className="faq-summary">
                 What types of projects do you specialize in?
                 <span className="material-symbols-outlined text-primary-container group-open:rotate-180 transition-transform">expand_more</span>
               </summary>
-              <p className="mt-3 text-sm md:text-base text-on-surface-variant pt-3 border-t border-outline-variant">
+              <p className="faq-answer">
                 We specialize in large-scale commercial developments (offices, retail, industrial), premium residential builds, and strategic renovations/extensions.
               </p>
             </details>
-            {/* FAQ 2 */}
-            <details className="bg-white rounded-lg border border-outline-variant p-4 md:p-6 group">
-              <summary className="font-semibold text-on-surface text-base md:text-lg cursor-pointer list-none flex justify-between items-center">
+            <details className="faq-item group">
+              <summary className="faq-summary">
                 How long does a typical project take?
                 <span className="material-symbols-outlined text-primary-container group-open:rotate-180 transition-transform">expand_more</span>
               </summary>
-              <p className="mt-3 text-sm md:text-base text-on-surface-variant pt-3 border-t border-outline-variant">
+              <p className="faq-answer">
                 Timelines vary based on scale. A residential extension may take 3-6 months, while a commercial build can take 12-24 months. We provide a detailed schedule during consultation.
               </p>
             </details>
-            {/* FAQ 3 */}
-            <details className="bg-white rounded-lg border border-outline-variant p-4 md:p-6 group">
-              <summary className="font-semibold text-on-surface text-base md:text-lg cursor-pointer list-none flex justify-between items-center">
+            <details className="faq-item group">
+              <summary className="faq-summary">
                 Do you handle planning permissions?
                 <span className="material-symbols-outlined text-primary-container group-open:rotate-180 transition-transform">expand_more</span>
               </summary>
-              <p className="mt-3 text-sm md:text-base text-on-surface-variant pt-3 border-t border-outline-variant">
+              <p className="faq-answer">
                 Yes, our in-house team manages all necessary planning applications, building regulations, and compliance with UK standards.
               </p>
             </details>
-            {/* FAQ 4 */}
-            <details className="bg-white rounded-lg border border-outline-variant p-4 md:p-6 group">
-              <summary className="font-semibold text-on-surface text-base md:text-lg cursor-pointer list-none flex justify-between items-center">
+            <details className="faq-item group">
+              <summary className="faq-summary">
                 Can I visit a previous project site?
                 <span className="material-symbols-outlined text-primary-container group-open:rotate-180 transition-transform">expand_more</span>
               </summary>
-              <p className="mt-3 text-sm md:text-base text-on-surface-variant pt-3 border-t border-outline-variant">
+              <p className="faq-answer">
                 Absolutely. We arrange site visits to completed projects upon request, subject to client permissions.
               </p>
             </details>

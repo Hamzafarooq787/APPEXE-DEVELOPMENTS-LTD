@@ -1,75 +1,63 @@
 @import "tailwindcss";
 
 @theme {
-  /* Colors */
-  --color-error-container: #ffdad6;
-  --color-surface-container-highest: #e5e2e1;
-  --color-inverse-on-surface: #f3f0ef;
-  --color-surface-container: #f0eded;
-  --color-tertiary: #4e6073;
-  --color-tertiary-fixed-dim: #b5c8df;
-  --color-on-primary: #ffffff;
-  --color-primary: #006d37;
-  --color-outline: #6c7b6d;
-  --color-on-surface: #1c1b1b;
-  --color-tertiary-fixed: #d1e4fb;
-  --color-surface-variant: #e5e2e1;
-  --color-on-surface-variant: #3d4a3e;
-  --color-surface: #fcf9f8;
-  --color-background: #fcf9f8;
-  --color-on-tertiary-fixed: #091d2e;
-  --color-secondary: #865300;
-  --color-on-primary-fixed-variant: #005228;
-  --color-outline-variant: #bbcbbb;
-  --color-error: #ba1a1a;
-  --color-surface-dim: #dcd9d9;
-  --color-on-background: #1c1b1b;
-  --color-primary-fixed-dim: #4ae183;
-  --color-surface-container-low: #f6f3f2;
-  --color-on-secondary-fixed-variant: #663e00;
-  --color-inverse-primary: #4ae183;
-  --color-surface-container-lowest: #ffffff;
-  --color-on-secondary-fixed: #2b1700;
-  --color-secondary-fixed: #ffddb9;
-  --color-secondary-container: #f39c12;
-  --color-surface-container-high: #eae7e7;
-  --color-surface-bright: #fcf9f8;
-  --color-primary-container: #2ecc71;
-  --color-on-tertiary: #ffffff;
-  --color-on-tertiary-container: #354759;
-  --color-primary-fixed: #6bfe9c;
-  --color-on-tertiary-fixed-variant: #36485b;
-  --color-tertiary-container: #a2b5cb;
-  --color-on-error-container: #93000a;
-  --color-on-primary-fixed: #00210c;
-  --color-surface-tint: #006d37;
-  --color-on-secondary-container: #694000;
-  --color-inverse-surface: #313030;
-  --color-on-error: #ffffff;
-  --color-secondary-fixed-dim: #ffb961;
-  --color-on-secondary: #ffffff;
-  --color-on-primary-container: #005027;
+  /* Brand */
+  --color-primary:                    #006d37;
+  --color-on-primary:                 #ffffff;
+  --color-primary-container:          #2ecc71;
+  --color-on-primary-container:       #005027;
 
-  /* Border radius */
+  --color-secondary:                  #865300;
+  --color-on-secondary:               #ffffff;
+  --color-secondary-container:        #f39c12;
+  --color-on-secondary-container:     #694000;
+
+  /* Surface */
+  --color-surface:                    #fcf9f8;
+  --color-on-surface:                 #1c1b1b;
+  --color-on-surface-variant:         #3d4a3e;
+
+  --color-surface-container-lowest:   #ffffff;
+  --color-surface-container-low:      #f6f3f2;
+  --color-surface-container:          #f0eded;
+  --color-surface-container-high:     #eae7e7;
+  --color-surface-container-highest:  #e5e2e1;
+
+  /* Border */
+  --color-outline-variant:            #bbcbbb;
+
+  /* Radius */
   --radius-DEFAULT: 0.125rem;
-  --radius-lg: 0.25rem;
-  --radius-xl: 0.5rem;
-  --radius-full: 0.75rem;
-
-  /* Spacing (optional, agar aap margin/padding me use karna chaahein) */
-  --spacing-section-gap: 80px;
-  --spacing-card-padding: 24px;
-  --spacing-grid-gutter: 24px;
+  --radius-lg:      0.25rem;
+  --radius-xl:      0.5rem;
+  --radius-full:    0.75rem;
 }
 
-/* Base body styles – sirf background aur font global rakhne ke liye */
 body {
   background-color: var(--color-surface);
   color: var(--color-on-surface);
   font-family: 'Inter', system-ui, sans-serif;
 }
 
-/* Material Symbols filled variant — font-variation-settings cannot be expressed as a Tailwind class */
+/* Material Symbols filled variant — cannot be expressed as a Tailwind utility */
 .icon-filled {
   font-variation-settings: 'FILL' 1;
+}
+
+/* Section eyebrow label — small uppercase tracking text above headings */
+.kicker {
+  @apply text-[12px] sm:text-[14px] leading-[16px] sm:leading-[20px] tracking-[0.05em] font-semibold uppercase;
+}
+
+/* FAQ accordion */
+.faq-item {
+  @apply bg-white rounded-lg border border-outline-variant p-4 md:p-6;
+}
+
+.faq-summary {
+  @apply font-semibold text-on-surface text-base md:text-lg cursor-pointer list-none flex justify-between items-center;
+}
+
+.faq-answer {
+  @apply mt-3 text-sm md:text-base text-on-surface-variant pt-3 border-t border-outline-variant;
 }
