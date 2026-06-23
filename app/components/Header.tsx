@@ -23,7 +23,6 @@ export default function Header() {
     <header className="w-full sticky top-0 z-50 border-b bg-white border-slate-200 shadow-none">
       <div className="max-w-[1200px] mx-auto flex justify-between items-center px-4 sm:px-6 md:px-8 h-16 md:h-20">
 
-        {/* LOGO */}
         <Link href="/" className="flex items-center gap-2">
           <Image
             src="/logo.webp"
@@ -35,7 +34,6 @@ export default function Header() {
           />
         </Link>
 
-        {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-6 lg:gap-8">
           <Link href="/" className={`text-sm uppercase font-semibold pb-1 ${isActive('/') ? 'text-primary border-b-2 border-primary' : 'text-slate-600 hover:text-primary'}`}>
             Home
@@ -54,7 +52,6 @@ export default function Header() {
           </Link>
         </nav>
 
-        {/* Right Side */}
         <div className="flex items-center gap-3 sm:gap-4">
 
           <Link href="/contact">
@@ -63,7 +60,6 @@ export default function Header() {
             </button>
           </Link>
 
-          {/* Mobile Menu */}
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             className="md:hidden flex items-center justify-center w-8 h-8 text-slate-700"
@@ -76,7 +72,6 @@ export default function Header() {
         </div>
       </div>
 
-      {/* Mobile Menu */}
       {isMenuOpen && (
         <div className="md:hidden bg-white border-t border-slate-200 py-4 px-4">
           <nav className="flex flex-col space-y-3">

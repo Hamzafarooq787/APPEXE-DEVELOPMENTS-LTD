@@ -3,10 +3,8 @@ export default function Footer() {
     <footer className="w-full py-12 mt-20 border-t bg-slate-50 border-slate-200">
       <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 px-6 md:px-8 text-left">
 
-        {/* LEFT SIDE */}
         <div>
 
-          {/* LOGO */}
           <div className="mb-4">
             <img
               src="/logo.webp"
@@ -24,7 +22,6 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* RIGHT SIDE */}
         <div className="flex flex-col gap-3 md:items-end">
 
           <div className="flex items-start md:items-center gap-2 text-slate-500 hover:text-slate-900 transition-all">
@@ -41,7 +38,6 @@ export default function Footer() {
             </a>
           </div>
 
-          {/* OPTIONAL LINKS */}
           <div className="mt-4 flex gap-4">
             <a href="#" className="text-slate-400 hover:text-slate-900 transition-colors">
               <span className="material-symbols-outlined">public</span>

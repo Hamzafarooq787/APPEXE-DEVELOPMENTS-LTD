@@ -4,7 +4,6 @@ import Link from 'next/link'
 export default function ServicesPage() {
   return (
     <main className="max-w-[1200px] mx-auto px-4 sm:px-6 md:px-8">
-      {/* Hero Header */}
       <header className="py-12 md:py-[80px]">
         <div className="max-w-3xl">
           <p className="kicker text-secondary mb-3 md:mb-4">
@@ -19,7 +18,6 @@ export default function ServicesPage() {
         </div>
       </header>
 
-      {/* Section 1: New Builds */}
       <section className="py-12 md:py-[80px] grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
         <div className="order-2 md:order-1">
           <div className="flex items-center gap-2 mb-3 md:mb-4">
@@ -65,7 +63,6 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      {/* Section 2: Extensions & Renovations */}
       <section className="py-12 md:py-[80px] grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
         <div className="order-1">
           <div className="aspect-video bg-surface-container-highest overflow-hidden rounded-xl border border-outline-variant">
@@ -107,7 +104,6 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      {/* Section 3: Commercial Developments */}
       <section className="py-12 md:py-[80px] grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
         <div className="order-2 md:order-1">
           <div className="flex items-center gap-2 mb-3 md:mb-4">
@@ -154,7 +150,6 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      {/* Craftsmanship CTA Section */}
       <section className="my-12 md:my-[80px] py-12 md:py-20 bg-primary-container text-on-primary-container rounded-2xl md:rounded-3xl overflow-hidden relative">
         <svg className="absolute inset-0 opacity-10 pointer-events-none" fill="none" height="100%" width="100%" xmlns="http://www.w3.org/2000/svg">
           <path d="M0 100 L100 0 M200 300 L300 200 M400 500 L500 400" stroke="currentColor" strokeWidth="20" />
@@ -181,7 +176,6 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      {/* Small Contact / Address Section (consistent with home & about) */}
       <section className="py-8 md:py-12 border-t border-outline-variant mt-8 md:mt-12">
         <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-center md:text-left">
           <div>

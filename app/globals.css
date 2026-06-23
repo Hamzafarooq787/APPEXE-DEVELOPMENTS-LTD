@@ -1,7 +1,6 @@
 @import "tailwindcss";
 
 @theme {
-  /* Brand */
   --color-primary:                    #006d37;
   --color-on-primary:                 #ffffff;
   --color-primary-container:          #2ecc71;
@@ -12,7 +11,6 @@
   --color-secondary-container:        #f39c12;
   --color-on-secondary-container:     #694000;
 
-  /* Surface */
   --color-surface:                    #fcf9f8;
   --color-on-surface:                 #1c1b1b;
   --color-on-surface-variant:         #3d4a3e;
@@ -23,10 +21,8 @@
   --color-surface-container-high:     #eae7e7;
   --color-surface-container-highest:  #e5e2e1;
 
-  /* Border */
   --color-outline-variant:            #bbcbbb;
 
-  /* Radius */
   --radius-DEFAULT: 0.125rem;
   --radius-lg:      0.25rem;
   --radius-xl:      0.5rem;
@@ -39,17 +35,14 @@ body {
   font-family: 'Inter', system-ui, sans-serif;
 }
 
-/* Material Symbols filled variant — cannot be expressed as a Tailwind utility */
 .icon-filled {
   font-variation-settings: 'FILL' 1;
 }
 
-/* Section eyebrow label — small uppercase tracking text above headings */
 .kicker {
   @apply text-[12px] sm:text-[14px] leading-[16px] sm:leading-[20px] tracking-[0.05em] font-semibold uppercase;
 }
 
-/* FAQ accordion */
 .faq-item {
   @apply bg-white rounded-lg border border-outline-variant p-4 md:p-6;
 }
