@@ -18,7 +18,7 @@ const csp = [
   // No plugins (Flash etc.)
   "object-src 'none'",
   // Allow Google Maps embeds; block everything else
-  "frame-src https://www.google.com/maps/ https://maps.google.com/",
+  "frame-src https://maps.google.com https://www.google.com",
   // Prevents this page from being embedded by other origins (CSP-level clickjack protection)
   "frame-ancestors 'self'",
   // Only allow form submissions to same origin
